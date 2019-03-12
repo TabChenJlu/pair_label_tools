@@ -27,7 +27,8 @@ processing_state = config['db'].get('processing_state')
 success_state = config['db'].get('success_state')
 log_path = config['log']['log_path']
 title = config['info']['title']
-
+teacher_font_color = config['ui']['teacher_font_color']
+student_font_colot = config['ui']['student_font_colot']
 
 
 
@@ -60,7 +61,7 @@ class database():
             self.conn.close()
             logger.info('Finish execute sql:{}'.format(sql))
         except:
-            logger.Error('Write to db fail,detail is {}'.format(traceback.format_exc()))
+            logger.error('Write to db fail,detail is {}'.format(traceback.format_exc()))
         finally:
             self.conn.close()
         return result
@@ -107,12 +108,12 @@ class Pair():
     def get_text(self):
         return loadText(self.i), loadText(self.j)
 
-def save_label(id,label):
+def save_label(id,label,user):
     logger.info('Start save result,id = {},label = {}'.format(id, label))
     
-    sql = 'UPDATE {} SET label = {},state = {},label_time = "{}" WHERE id = {}'.format(
-            table, label, success_state, getNowTime(), id)
+    sql = 'UPDATE {} SET label = {},state = {},label_time = "{}",user= "{}" WHERE id = {}'.format(
+            table, label, success_state, getNowTime(), user,id)
     db = database()
     result = db.execute(sql)
-    logger.info('Finish save result,id = {},label = {}'.format(id, label))
+    logger.info('Finish save result,id = {},label = {},user = {}'.format(id, label,user))
     return result

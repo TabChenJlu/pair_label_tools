@@ -14,13 +14,13 @@ def save_pairs_2_db():
 
     # Create table
     c.execute('''CREATE TABLE {}
-                (id,index_i, index_j,label,state,create_time,label_time)'''.
-            format(table))
+             (id,index_i, index_j,label,state,create_time,label_time,user)'''.
+          format(table))
     logger.info('Write pairs to table {}'.format(table))
     for id, pair in enumerate(pair_list):
         create_time = getNowTime()
-        c.execute("INSERT INTO pairs VALUES ({},{},{},{},{},'{}','{}')".format(
-            id + 1, pair[0], pair[1], -1, wait_state, create_time, ''))
+        c.execute("INSERT INTO pairs VALUES ({},{},{},{},{},'{}','{}','{}')".format(
+        id + 1, pair[0], pair[1], -1, wait_state, create_time, '',''))
     conn.commit()
     conn.close()
     logger.info('Finish create table {}'.format(table))
