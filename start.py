@@ -71,4 +71,4 @@ def update_data(value_1, value_2, value_3, value_4):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=eval(config['server']['debug']),host=config['server']['host'],port=config['server']['port'])
