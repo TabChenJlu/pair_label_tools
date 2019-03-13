@@ -27,6 +27,7 @@ processing_state = config['db'].get('processing_state')
 success_state = config['db'].get('success_state')
 log_path = config['log']['log_path']
 title = config['info']['title']
+task_name = config['info']['task_name']
 teacher_font_color = config['ui']['teacher_font_color']
 student_font_colot = config['ui']['student_font_colot']
 
@@ -116,4 +117,14 @@ def save_label(id,label,user):
     db = database()
     result = db.execute(sql)
     logger.info('Finish save result,id = {},label = {},user = {}'.format(id, label,user))
+    return result
+
+def release_pair(id):
+    logger.info('Start release pair,id = {}'.format(id))
+    
+    sql = 'UPDATE {} SET state = {} WHERE id = {}'.format(
+            table,wait_state,id)
+    db = database()
+    result = db.execute(sql)
+    logger.info('Finish release pair,id = {}'.format(id))
     return result

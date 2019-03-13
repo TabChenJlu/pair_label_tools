@@ -5,6 +5,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output, State
 from tools.utils import *
+import time
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -12,16 +13,16 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = title
 
 app.layout = html.Div([
-    html.H1(children=title, style={'textAlign': 'center', 'color': '#ff0000'}),
+    html.H2(children='当前任务:{}'.format(task_name), style={'textAlign': 'center', 'color': '#ff0000'}),
     html.Div([
         html.Span('输入你的用户名:'),
         dcc.Input(id='user', type='text', value='',
                   style={'width': '10%'}),
         html.Button('开始(请点击一次)', id='start', style={
                     'width': '10%', 'marginLeft': '2%'}),
-        html.Button('左边', id='right', style={
+        html.Button('左边好', id='right', style={
                     'width': '25%', 'marginLeft': '2%'}),
-        html.Button('右边', id='left', style={
+        html.Button('右边好', id='left', style={
                     'width': '25%', 'marginLeft': '2%'}),
     ], style={"width": '100%'}),
     html.Div(id='output', style={'columnCount': 1}),
@@ -71,19 +72,17 @@ def process_pargraph(raw_text):
      State('user', 'value')
      ]
 )
-def update_data(value_1, value_2, value_3, value_4, user):
-    if value_3 is None:
+def update_data(right, left, start,pair_id, user):
+    if start is None:
         logger.info('Not click start~')
         return ''
-    logger.info('value_1:{}, value_2:{}, value_3:{}, value_4:{}'.format(
-        value_1, value_2, value_3, value_4))
-    label = get_clicked_button_name(value_1, value_2)
-    if label != -1 and value_4 != '':
-        save_label(int(value_4), label, user)
-    # new pair
+    logger.info('right:{}, left:{},pair_id:{},user:{},start:{}'.format(
+        right, left, pair_id, user, start))
+    label = get_clicked_button_name(right, left)
+    if label != -1 and pair_id != '':
+        save_label(int(pair_id), label, user)
+
     my_pair = Pair()
-    # my_pair.i = 102
-    # my_pair.j = 183
     text_left, text_right = my_pair.get_text()
     text_left = process_pargraph(text_left)
     text_right = process_pargraph(text_right)
