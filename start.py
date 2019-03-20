@@ -7,9 +7,8 @@ from dash.dependencies import Input, Output, State
 from tools.utils import *
 import time
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
 app.title = title
 
 app.layout = html.Div([
