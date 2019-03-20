@@ -1,1 +1,1548 @@
-2019-03-12 15:32:05,631 - INFO - 22034 - dash.py - run_server - Debugger PIN: 040-802-829
+2019-03-15 14:18:08,863 - INFO - 13567 - _internal.py - _log -  * Running on http://0.0.0.0:8004/ (Press CTRL+C to quit)
+2019-03-15 14:18:11,297 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:11] "GET / HTTP/1.1" 200 -
+2019-03-15 14:18:11,846 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:11] "GET /_dash-layout HTTP/1.1" 200 -
+2019-03-15 14:18:11,848 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:11] "GET /_dash-dependencies HTTP/1.1" 200 -
+2019-03-15 14:18:11,869 - INFO - 13567 - start.py - update_data - Not click start~
+2019-03-15 14:18:11,869 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:12,038 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:12] "GET /_favicon.ico HTTP/1.1" 200 -
+2019-03-15 14:18:12,049 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:12] "GET / HTTP/1.1" 200 -
+2019-03-15 14:18:13,574 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:13] "GET /_dash-layout HTTP/1.1" 200 -
+2019-03-15 14:18:13,576 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:13] "GET /_dash-dependencies HTTP/1.1" 200 -
+2019-03-15 14:18:13,583 - INFO - 13567 - start.py - update_data - Not click start~
+2019-03-15 14:18:13,584 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:13,633 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:13] "GET /_favicon.ico HTTP/1.1" 200 -
+2019-03-15 14:18:15,362 - INFO - 13567 - start.py - update_data - right:None, left:None,pair_id:,user:,start:1552630695355
+2019-03-15 14:18:15,363 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:15,363 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:15,364 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:15,364 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 5
+2019-03-15 14:18:15,466 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 5
+2019-03-15 14:18:15,466 - INFO - 13567 - utils.py - __init__ - Pair info i=5464,j=7157,id=5
+2019-03-15 14:18:15,472 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:15] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:42,983 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:42] "GET / HTTP/1.1" 200 -
+2019-03-15 14:18:44,829 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:44] "GET /_dash-layout HTTP/1.1" 200 -
+2019-03-15 14:18:44,831 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:44] "GET /_dash-dependencies HTTP/1.1" 200 -
+2019-03-15 14:18:44,846 - INFO - 13567 - start.py - update_data - Not click start~
+2019-03-15 14:18:44,846 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:44,976 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:44] "GET /_favicon.ico HTTP/1.1" 200 -
+2019-03-15 14:18:46,108 - INFO - 13567 - start.py - update_data - right:None, left:None,pair_id:,user:,start:1552630726100
+2019-03-15 14:18:46,108 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:46,109 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:46,109 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:46,110 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 6
+2019-03-15 14:18:46,218 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 6
+2019-03-15 14:18:46,218 - INFO - 13567 - utils.py - __init__ - Pair info i=35,j=41,id=6
+2019-03-15 14:18:46,222 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:46] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:47,754 - INFO - 13567 - start.py - update_data - right:1552630727745, left:None,pair_id:6,user:,start:1552630726100
+2019-03-15 14:18:47,754 - INFO - 13567 - utils.py - save_label - Start save result,id = 6,label = 1
+2019-03-15 14:18:47,754 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:47",user= "" WHERE id = 6
+2019-03-15 14:18:47,869 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:47",user= "" WHERE id = 6
+2019-03-15 14:18:47,869 - INFO - 13567 - utils.py - save_label - Finish save result,id = 6,label = 1,user = 
+2019-03-15 14:18:47,869 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:47,869 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:47,869 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:47,869 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 7
+2019-03-15 14:18:47,977 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 7
+2019-03-15 14:18:47,977 - INFO - 13567 - utils.py - __init__ - Pair info i=1134,j=722,id=7
+2019-03-15 14:18:47,981 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:47] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:48,729 - INFO - 13567 - start.py - update_data - right:1552630727745, left:1552630728721,pair_id:7,user:,start:1552630726100
+2019-03-15 14:18:48,729 - INFO - 13567 - utils.py - save_label - Start save result,id = 7,label = 0
+2019-03-15 14:18:48,730 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:48",user= "" WHERE id = 7
+2019-03-15 14:18:48,902 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:48",user= "" WHERE id = 7
+2019-03-15 14:18:48,902 - INFO - 13567 - utils.py - save_label - Finish save result,id = 7,label = 0,user = 
+2019-03-15 14:18:48,902 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:48,903 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:48,903 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:48,903 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 8
+2019-03-15 14:18:49,036 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 8
+2019-03-15 14:18:49,036 - INFO - 13567 - utils.py - __init__ - Pair info i=86,j=1737,id=8
+2019-03-15 14:18:49,046 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:49,431 - INFO - 13567 - start.py - update_data - right:1552630729425, left:1552630728721,pair_id:8,user:,start:1552630726100
+2019-03-15 14:18:49,431 - INFO - 13567 - utils.py - save_label - Start save result,id = 8,label = 1
+2019-03-15 14:18:49,432 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:49",user= "" WHERE id = 8
+2019-03-15 14:18:49,561 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:49",user= "" WHERE id = 8
+2019-03-15 14:18:49,561 - INFO - 13567 - utils.py - save_label - Finish save result,id = 8,label = 1,user = 
+2019-03-15 14:18:49,561 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:49,562 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:49,562 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:49,562 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 9
+2019-03-15 14:18:49,660 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 9
+2019-03-15 14:18:49,660 - INFO - 13567 - utils.py - __init__ - Pair info i=8254,j=1864,id=9
+2019-03-15 14:18:49,663 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:50,353 - INFO - 13567 - start.py - update_data - right:1552630729425, left:1552630730345,pair_id:9,user:,start:1552630726100
+2019-03-15 14:18:50,353 - INFO - 13567 - utils.py - save_label - Start save result,id = 9,label = 0
+2019-03-15 14:18:50,354 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:50",user= "" WHERE id = 9
+2019-03-15 14:18:50,444 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:50",user= "" WHERE id = 9
+2019-03-15 14:18:50,445 - INFO - 13567 - utils.py - save_label - Finish save result,id = 9,label = 0,user = 
+2019-03-15 14:18:50,445 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:50,445 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:50,445 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:50,445 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 10
+2019-03-15 14:18:50,545 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 10
+2019-03-15 14:18:50,545 - INFO - 13567 - utils.py - __init__ - Pair info i=8141,j=10179,id=10
+2019-03-15 14:18:50,552 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:52,058 - INFO - 13567 - start.py - update_data - right:1552630732050, left:1552630730345,pair_id:10,user:,start:1552630726100
+2019-03-15 14:18:52,058 - INFO - 13567 - utils.py - save_label - Start save result,id = 10,label = 1
+2019-03-15 14:18:52,058 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:52",user= "" WHERE id = 10
+2019-03-15 14:18:52,136 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:52",user= "" WHERE id = 10
+2019-03-15 14:18:52,136 - INFO - 13567 - utils.py - save_label - Finish save result,id = 10,label = 1,user = 
+2019-03-15 14:18:52,137 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:52,137 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:52,137 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:52,137 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 11
+2019-03-15 14:18:52,236 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 11
+2019-03-15 14:18:52,236 - INFO - 13567 - utils.py - __init__ - Pair info i=6843,j=683,id=11
+2019-03-15 14:18:52,243 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:54,305 - INFO - 13567 - start.py - update_data - right:1552630732050, left:1552630734298,pair_id:11,user:,start:1552630726100
+2019-03-15 14:18:54,306 - INFO - 13567 - utils.py - save_label - Start save result,id = 11,label = 0
+2019-03-15 14:18:54,306 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:54",user= "" WHERE id = 11
+2019-03-15 14:18:54,395 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:54",user= "" WHERE id = 11
+2019-03-15 14:18:54,395 - INFO - 13567 - utils.py - save_label - Finish save result,id = 11,label = 0,user = 
+2019-03-15 14:18:54,395 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:54,396 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:54,396 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:54,396 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 12
+2019-03-15 14:18:54,512 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 12
+2019-03-15 14:18:54,512 - INFO - 13567 - utils.py - __init__ - Pair info i=2507,j=38,id=12
+2019-03-15 14:18:54,522 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:54] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:55,290 - INFO - 13567 - start.py - update_data - right:1552630735282, left:1552630734298,pair_id:12,user:,start:1552630726100
+2019-03-15 14:18:55,291 - INFO - 13567 - utils.py - save_label - Start save result,id = 12,label = 1
+2019-03-15 14:18:55,291 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:55",user= "" WHERE id = 12
+2019-03-15 14:18:55,378 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:55",user= "" WHERE id = 12
+2019-03-15 14:18:55,379 - INFO - 13567 - utils.py - save_label - Finish save result,id = 12,label = 1,user = 
+2019-03-15 14:18:55,379 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:55,379 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:55,379 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:55,380 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 13
+2019-03-15 14:18:55,480 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 13
+2019-03-15 14:18:55,480 - INFO - 13567 - utils.py - __init__ - Pair info i=420,j=1073,id=13
+2019-03-15 14:18:55,489 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:55] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:56,067 - INFO - 13567 - start.py - update_data - right:1552630735282, left:1552630736058,pair_id:13,user:,start:1552630726100
+2019-03-15 14:18:56,067 - INFO - 13567 - utils.py - save_label - Start save result,id = 13,label = 0
+2019-03-15 14:18:56,068 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:56",user= "" WHERE id = 13
+2019-03-15 14:18:56,211 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:56",user= "" WHERE id = 13
+2019-03-15 14:18:56,211 - INFO - 13567 - utils.py - save_label - Finish save result,id = 13,label = 0,user = 
+2019-03-15 14:18:56,212 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:56,212 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:56,212 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:56,212 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 14
+2019-03-15 14:18:56,356 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 14
+2019-03-15 14:18:56,356 - INFO - 13567 - utils.py - __init__ - Pair info i=655,j=4159,id=14
+2019-03-15 14:18:56,366 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:56,703 - INFO - 13567 - start.py - update_data - right:1552630736697, left:1552630736058,pair_id:14,user:,start:1552630726100
+2019-03-15 14:18:56,703 - INFO - 13567 - utils.py - save_label - Start save result,id = 14,label = 1
+2019-03-15 14:18:56,703 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:56",user= "" WHERE id = 14
+2019-03-15 14:18:56,830 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:56",user= "" WHERE id = 14
+2019-03-15 14:18:56,830 - INFO - 13567 - utils.py - save_label - Finish save result,id = 14,label = 1,user = 
+2019-03-15 14:18:56,831 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:56,831 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:56,831 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:56,831 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 15
+2019-03-15 14:18:56,980 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 15
+2019-03-15 14:18:56,980 - INFO - 13567 - utils.py - __init__ - Pair info i=81,j=655,id=15
+2019-03-15 14:18:56,989 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:56] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:57,248 - INFO - 13567 - start.py - update_data - right:1552630736697, left:1552630737241,pair_id:15,user:,start:1552630726100
+2019-03-15 14:18:57,248 - INFO - 13567 - utils.py - save_label - Start save result,id = 15,label = 0
+2019-03-15 14:18:57,248 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:57",user= "" WHERE id = 15
+2019-03-15 14:18:57,366 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:57",user= "" WHERE id = 15
+2019-03-15 14:18:57,366 - INFO - 13567 - utils.py - save_label - Finish save result,id = 15,label = 0,user = 
+2019-03-15 14:18:57,366 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:57,367 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:57,367 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:57,367 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 16
+2019-03-15 14:18:57,496 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 16
+2019-03-15 14:18:57,496 - INFO - 13567 - utils.py - __init__ - Pair info i=86,j=7157,id=16
+2019-03-15 14:18:57,504 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:57] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:57,863 - INFO - 13567 - start.py - update_data - right:1552630737857, left:1552630737241,pair_id:16,user:,start:1552630726100
+2019-03-15 14:18:57,864 - INFO - 13567 - utils.py - save_label - Start save result,id = 16,label = 1
+2019-03-15 14:18:57,864 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:57",user= "" WHERE id = 16
+2019-03-15 14:18:57,954 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:18:57",user= "" WHERE id = 16
+2019-03-15 14:18:57,955 - INFO - 13567 - utils.py - save_label - Finish save result,id = 16,label = 1,user = 
+2019-03-15 14:18:57,955 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:57,955 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:57,955 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:57,956 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 17
+2019-03-15 14:18:58,039 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 17
+2019-03-15 14:18:58,039 - INFO - 13567 - utils.py - __init__ - Pair info i=3031,j=9318,id=17
+2019-03-15 14:18:58,045 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:58] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:18:58,465 - INFO - 13567 - start.py - update_data - right:1552630737857, left:1552630738458,pair_id:17,user:,start:1552630726100
+2019-03-15 14:18:58,465 - INFO - 13567 - utils.py - save_label - Start save result,id = 17,label = 0
+2019-03-15 14:18:58,465 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:58",user= "" WHERE id = 17
+2019-03-15 14:18:58,546 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:18:58",user= "" WHERE id = 17
+2019-03-15 14:18:58,546 - INFO - 13567 - utils.py - save_label - Finish save result,id = 17,label = 0,user = 
+2019-03-15 14:18:58,547 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:58,547 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:18:58,547 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:18:58,548 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 18
+2019-03-15 14:18:58,630 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 18
+2019-03-15 14:18:58,630 - INFO - 13567 - utils.py - __init__ - Pair info i=1224,j=1669,id=18
+2019-03-15 14:18:58,635 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:18:58] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:09,164 - INFO - 13567 - start.py - update_data - right:1552630749161, left:1552630738458,pair_id:18,user:,start:1552630726100
+2019-03-15 14:19:09,164 - INFO - 13567 - utils.py - save_label - Start save result,id = 18,label = 1
+2019-03-15 14:19:09,164 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:09",user= "" WHERE id = 18
+2019-03-15 14:19:09,259 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:09",user= "" WHERE id = 18
+2019-03-15 14:19:09,259 - INFO - 13567 - utils.py - save_label - Finish save result,id = 18,label = 1,user = 
+2019-03-15 14:19:09,259 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:09,260 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:09,260 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:09,260 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 19
+2019-03-15 14:19:09,318 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 19
+2019-03-15 14:19:09,318 - INFO - 13567 - utils.py - __init__ - Pair info i=4489,j=613,id=19
+2019-03-15 14:19:09,328 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:09,746 - INFO - 13567 - start.py - update_data - right:1552630749738, left:1552630738458,pair_id:19,user:,start:1552630726100
+2019-03-15 14:19:09,746 - INFO - 13567 - utils.py - save_label - Start save result,id = 19,label = 1
+2019-03-15 14:19:09,746 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:09",user= "" WHERE id = 19
+2019-03-15 14:19:09,826 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:09",user= "" WHERE id = 19
+2019-03-15 14:19:09,826 - INFO - 13567 - utils.py - save_label - Finish save result,id = 19,label = 1,user = 
+2019-03-15 14:19:09,826 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:09,827 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:09,827 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:09,827 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 20
+2019-03-15 14:19:09,901 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 20
+2019-03-15 14:19:09,901 - INFO - 13567 - utils.py - __init__ - Pair info i=2354,j=1533,id=20
+2019-03-15 14:19:09,911 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:10,312 - INFO - 13567 - start.py - update_data - right:1552630750305, left:1552630738458,pair_id:20,user:,start:1552630726100
+2019-03-15 14:19:10,312 - INFO - 13567 - utils.py - save_label - Start save result,id = 20,label = 1
+2019-03-15 14:19:10,313 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:10",user= "" WHERE id = 20
+2019-03-15 14:19:10,393 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:10",user= "" WHERE id = 20
+2019-03-15 14:19:10,393 - INFO - 13567 - utils.py - save_label - Finish save result,id = 20,label = 1,user = 
+2019-03-15 14:19:10,393 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:10,394 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:10,394 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:10,394 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 21
+2019-03-15 14:19:10,468 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 21
+2019-03-15 14:19:10,468 - INFO - 13567 - utils.py - __init__ - Pair info i=3034,j=2796,id=21
+2019-03-15 14:19:10,476 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:10,792 - INFO - 13567 - start.py - update_data - right:1552630750786, left:1552630738458,pair_id:21,user:,start:1552630726100
+2019-03-15 14:19:10,792 - INFO - 13567 - utils.py - save_label - Start save result,id = 21,label = 1
+2019-03-15 14:19:10,793 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:10",user= "" WHERE id = 21
+2019-03-15 14:19:10,885 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:10",user= "" WHERE id = 21
+2019-03-15 14:19:10,885 - INFO - 13567 - utils.py - save_label - Finish save result,id = 21,label = 1,user = 
+2019-03-15 14:19:10,885 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:10,885 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:10,885 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:10,885 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 22
+2019-03-15 14:19:10,960 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 22
+2019-03-15 14:19:10,960 - INFO - 13567 - utils.py - __init__ - Pair info i=31,j=4077,id=22
+2019-03-15 14:19:10,968 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:11,248 - INFO - 13567 - start.py - update_data - right:1552630751242, left:1552630738458,pair_id:22,user:,start:1552630726100
+2019-03-15 14:19:11,248 - INFO - 13567 - utils.py - save_label - Start save result,id = 22,label = 1
+2019-03-15 14:19:11,248 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:11",user= "" WHERE id = 22
+2019-03-15 14:19:11,326 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:11",user= "" WHERE id = 22
+2019-03-15 14:19:11,327 - INFO - 13567 - utils.py - save_label - Finish save result,id = 22,label = 1,user = 
+2019-03-15 14:19:11,327 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:11,327 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:11,327 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:11,327 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 23
+2019-03-15 14:19:11,409 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 23
+2019-03-15 14:19:11,409 - INFO - 13567 - utils.py - __init__ - Pair info i=12018,j=2709,id=23
+2019-03-15 14:19:11,417 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:11,696 - INFO - 13567 - start.py - update_data - right:1552630751690, left:1552630738458,pair_id:23,user:,start:1552630726100
+2019-03-15 14:19:11,696 - INFO - 13567 - utils.py - save_label - Start save result,id = 23,label = 1
+2019-03-15 14:19:11,697 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:11",user= "" WHERE id = 23
+2019-03-15 14:19:11,809 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:11",user= "" WHERE id = 23
+2019-03-15 14:19:11,809 - INFO - 13567 - utils.py - save_label - Finish save result,id = 23,label = 1,user = 
+2019-03-15 14:19:11,809 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:11,809 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:11,809 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:11,809 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 24
+2019-03-15 14:19:11,867 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 24
+2019-03-15 14:19:11,867 - INFO - 13567 - utils.py - __init__ - Pair info i=1027,j=110,id=24
+2019-03-15 14:19:11,876 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:12,330 - INFO - 13567 - start.py - update_data - right:1552630752322, left:1552630738458,pair_id:24,user:,start:1552630726100
+2019-03-15 14:19:12,330 - INFO - 13567 - utils.py - save_label - Start save result,id = 24,label = 1
+2019-03-15 14:19:12,330 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:12",user= "" WHERE id = 24
+2019-03-15 14:19:12,410 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:12",user= "" WHERE id = 24
+2019-03-15 14:19:12,410 - INFO - 13567 - utils.py - save_label - Finish save result,id = 24,label = 1,user = 
+2019-03-15 14:19:12,410 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:12,410 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:12,411 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:12,411 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 25
+2019-03-15 14:19:12,509 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 25
+2019-03-15 14:19:12,509 - INFO - 13567 - utils.py - __init__ - Pair info i=1637,j=123,id=25
+2019-03-15 14:19:12,518 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:12,738 - INFO - 13567 - start.py - update_data - right:1552630752730, left:1552630738458,pair_id:25,user:,start:1552630726100
+2019-03-15 14:19:12,738 - INFO - 13567 - utils.py - save_label - Start save result,id = 25,label = 1
+2019-03-15 14:19:12,738 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:12",user= "" WHERE id = 25
+2019-03-15 14:19:12,818 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:12",user= "" WHERE id = 25
+2019-03-15 14:19:12,818 - INFO - 13567 - utils.py - save_label - Finish save result,id = 25,label = 1,user = 
+2019-03-15 14:19:12,818 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:12,818 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:12,818 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:12,819 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 26
+2019-03-15 14:19:12,943 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 26
+2019-03-15 14:19:12,943 - INFO - 13567 - utils.py - __init__ - Pair info i=4194,j=71,id=26
+2019-03-15 14:19:12,951 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:13,085 - INFO - 13567 - start.py - update_data - right:1552630753081, left:1552630738458,pair_id:26,user:,start:1552630726100
+2019-03-15 14:19:13,085 - INFO - 13567 - utils.py - save_label - Start save result,id = 26,label = 1
+2019-03-15 14:19:13,085 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:13",user= "" WHERE id = 26
+2019-03-15 14:19:13,185 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:13",user= "" WHERE id = 26
+2019-03-15 14:19:13,186 - INFO - 13567 - utils.py - save_label - Finish save result,id = 26,label = 1,user = 
+2019-03-15 14:19:13,186 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:13,186 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:13,186 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:13,186 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 27
+2019-03-15 14:19:13,293 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 27
+2019-03-15 14:19:13,293 - INFO - 13567 - utils.py - __init__ - Pair info i=11736,j=3129,id=27
+2019-03-15 14:19:13,301 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:13,552 - INFO - 13567 - start.py - update_data - right:1552630753545, left:1552630738458,pair_id:27,user:,start:1552630726100
+2019-03-15 14:19:13,552 - INFO - 13567 - utils.py - save_label - Start save result,id = 27,label = 1
+2019-03-15 14:19:13,553 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:13",user= "" WHERE id = 27
+2019-03-15 14:19:13,618 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:13",user= "" WHERE id = 27
+2019-03-15 14:19:13,618 - INFO - 13567 - utils.py - save_label - Finish save result,id = 27,label = 1,user = 
+2019-03-15 14:19:13,618 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:13,618 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:13,618 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:13,618 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 28
+2019-03-15 14:19:13,744 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 28
+2019-03-15 14:19:13,744 - INFO - 13567 - utils.py - __init__ - Pair info i=2712,j=63,id=28
+2019-03-15 14:19:13,753 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:14,018 - INFO - 13567 - start.py - update_data - right:1552630754010, left:1552630738458,pair_id:28,user:,start:1552630726100
+2019-03-15 14:19:14,019 - INFO - 13567 - utils.py - save_label - Start save result,id = 28,label = 1
+2019-03-15 14:19:14,019 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:14",user= "" WHERE id = 28
+2019-03-15 14:19:14,101 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:14",user= "" WHERE id = 28
+2019-03-15 14:19:14,102 - INFO - 13567 - utils.py - save_label - Finish save result,id = 28,label = 1,user = 
+2019-03-15 14:19:14,102 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:14,102 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:14,102 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:14,103 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 29
+2019-03-15 14:19:14,235 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 29
+2019-03-15 14:19:14,235 - INFO - 13567 - utils.py - __init__ - Pair info i=6843,j=1612,id=29
+2019-03-15 14:19:14,243 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:14,480 - INFO - 13567 - start.py - update_data - right:1552630754474, left:1552630738458,pair_id:29,user:,start:1552630726100
+2019-03-15 14:19:14,480 - INFO - 13567 - utils.py - save_label - Start save result,id = 29,label = 1
+2019-03-15 14:19:14,481 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:14",user= "" WHERE id = 29
+2019-03-15 14:19:14,553 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:14",user= "" WHERE id = 29
+2019-03-15 14:19:14,553 - INFO - 13567 - utils.py - save_label - Finish save result,id = 29,label = 1,user = 
+2019-03-15 14:19:14,553 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:14,554 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:14,554 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:14,554 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 30
+2019-03-15 14:19:14,635 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 30
+2019-03-15 14:19:14,635 - INFO - 13567 - utils.py - __init__ - Pair info i=6614,j=1450,id=30
+2019-03-15 14:19:14,644 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:14,872 - INFO - 13567 - start.py - update_data - right:1552630754866, left:1552630738458,pair_id:30,user:,start:1552630726100
+2019-03-15 14:19:14,872 - INFO - 13567 - utils.py - save_label - Start save result,id = 30,label = 1
+2019-03-15 14:19:14,873 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:14",user= "" WHERE id = 30
+2019-03-15 14:19:14,943 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:14",user= "" WHERE id = 30
+2019-03-15 14:19:14,944 - INFO - 13567 - utils.py - save_label - Finish save result,id = 30,label = 1,user = 
+2019-03-15 14:19:14,944 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:14,944 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:14,944 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:14,945 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 31
+2019-03-15 14:19:15,027 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 31
+2019-03-15 14:19:15,027 - INFO - 13567 - utils.py - __init__ - Pair info i=107,j=4768,id=31
+2019-03-15 14:19:15,036 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:15] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:15,191 - INFO - 13567 - start.py - update_data - right:1552630755186, left:1552630738458,pair_id:31,user:,start:1552630726100
+2019-03-15 14:19:15,191 - INFO - 13567 - utils.py - save_label - Start save result,id = 31,label = 1
+2019-03-15 14:19:15,192 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:15",user= "" WHERE id = 31
+2019-03-15 14:19:15,320 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:15",user= "" WHERE id = 31
+2019-03-15 14:19:15,320 - INFO - 13567 - utils.py - save_label - Finish save result,id = 31,label = 1,user = 
+2019-03-15 14:19:15,320 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:15,320 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:15,321 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:15,321 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 32
+2019-03-15 14:19:15,402 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 32
+2019-03-15 14:19:15,402 - INFO - 13567 - utils.py - __init__ - Pair info i=8321,j=11504,id=32
+2019-03-15 14:19:15,411 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:15] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:15,446 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630738458,pair_id:32,user:,start:1552630726100
+2019-03-15 14:19:15,446 - INFO - 13567 - utils.py - save_label - Start save result,id = 32,label = 1
+2019-03-15 14:19:15,447 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:15",user= "" WHERE id = 32
+2019-03-15 14:19:15,527 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:15",user= "" WHERE id = 32
+2019-03-15 14:19:15,527 - INFO - 13567 - utils.py - save_label - Finish save result,id = 32,label = 1,user = 
+2019-03-15 14:19:15,527 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:15,527 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:15,527 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:15,527 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 33
+2019-03-15 14:19:15,598 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 33
+2019-03-15 14:19:15,598 - INFO - 13567 - utils.py - __init__ - Pair info i=7231,j=2087,id=33
+2019-03-15 14:19:15,607 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:15] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:20,716 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630760713,pair_id:33,user:,start:1552630726100
+2019-03-15 14:19:20,716 - INFO - 13567 - utils.py - save_label - Start save result,id = 33,label = 0
+2019-03-15 14:19:20,716 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:20",user= "" WHERE id = 33
+2019-03-15 14:19:20,788 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:20",user= "" WHERE id = 33
+2019-03-15 14:19:20,788 - INFO - 13567 - utils.py - save_label - Finish save result,id = 33,label = 0,user = 
+2019-03-15 14:19:20,788 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:20,789 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:20,789 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:20,789 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 34
+2019-03-15 14:19:20,878 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 34
+2019-03-15 14:19:20,878 - INFO - 13567 - utils.py - __init__ - Pair info i=2494,j=2709,id=34
+2019-03-15 14:19:20,883 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:21,144 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630761138,pair_id:34,user:,start:1552630726100
+2019-03-15 14:19:21,144 - INFO - 13567 - utils.py - save_label - Start save result,id = 34,label = 0
+2019-03-15 14:19:21,144 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:21",user= "" WHERE id = 34
+2019-03-15 14:19:21,213 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:21",user= "" WHERE id = 34
+2019-03-15 14:19:21,213 - INFO - 13567 - utils.py - save_label - Finish save result,id = 34,label = 0,user = 
+2019-03-15 14:19:21,213 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:21,213 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:21,214 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:21,214 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 35
+2019-03-15 14:19:21,279 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 35
+2019-03-15 14:19:21,279 - INFO - 13567 - utils.py - __init__ - Pair info i=1837,j=4603,id=35
+2019-03-15 14:19:21,288 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:21,506 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630761498,pair_id:35,user:,start:1552630726100
+2019-03-15 14:19:21,506 - INFO - 13567 - utils.py - save_label - Start save result,id = 35,label = 0
+2019-03-15 14:19:21,506 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:21",user= "" WHERE id = 35
+2019-03-15 14:19:21,597 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:21",user= "" WHERE id = 35
+2019-03-15 14:19:21,597 - INFO - 13567 - utils.py - save_label - Finish save result,id = 35,label = 0,user = 
+2019-03-15 14:19:21,597 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:21,597 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:21,598 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:21,598 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 36
+2019-03-15 14:19:21,696 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 36
+2019-03-15 14:19:21,697 - INFO - 13567 - utils.py - __init__ - Pair info i=4786,j=982,id=36
+2019-03-15 14:19:21,702 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:21,888 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630761882,pair_id:36,user:,start:1552630726100
+2019-03-15 14:19:21,888 - INFO - 13567 - utils.py - save_label - Start save result,id = 36,label = 0
+2019-03-15 14:19:21,888 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:21",user= "" WHERE id = 36
+2019-03-15 14:19:21,954 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:21",user= "" WHERE id = 36
+2019-03-15 14:19:21,954 - INFO - 13567 - utils.py - save_label - Finish save result,id = 36,label = 0,user = 
+2019-03-15 14:19:21,955 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:21,955 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:21,955 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:21,955 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 37
+2019-03-15 14:19:22,046 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 37
+2019-03-15 14:19:22,046 - INFO - 13567 - utils.py - __init__ - Pair info i=2455,j=3129,id=37
+2019-03-15 14:19:22,053 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:22,190 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630762186,pair_id:37,user:,start:1552630726100
+2019-03-15 14:19:22,190 - INFO - 13567 - utils.py - save_label - Start save result,id = 37,label = 0
+2019-03-15 14:19:22,191 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:22",user= "" WHERE id = 37
+2019-03-15 14:19:22,296 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:22",user= "" WHERE id = 37
+2019-03-15 14:19:22,296 - INFO - 13567 - utils.py - save_label - Finish save result,id = 37,label = 0,user = 
+2019-03-15 14:19:22,296 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:22,297 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:22,297 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:22,297 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 38
+2019-03-15 14:19:22,413 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 38
+2019-03-15 14:19:22,414 - INFO - 13567 - utils.py - __init__ - Pair info i=107,j=8949,id=38
+2019-03-15 14:19:22,423 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:22,472 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630762465,pair_id:38,user:,start:1552630726100
+2019-03-15 14:19:22,472 - INFO - 13567 - utils.py - save_label - Start save result,id = 38,label = 0
+2019-03-15 14:19:22,472 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:22",user= "" WHERE id = 38
+2019-03-15 14:19:22,589 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:22",user= "" WHERE id = 38
+2019-03-15 14:19:22,589 - INFO - 13567 - utils.py - save_label - Finish save result,id = 38,label = 0,user = 
+2019-03-15 14:19:22,589 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:22,590 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:22,590 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:22,590 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 39
+2019-03-15 14:19:22,696 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 39
+2019-03-15 14:19:22,696 - INFO - 13567 - utils.py - __init__ - Pair info i=1136,j=14,id=39
+2019-03-15 14:19:22,707 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:22,746 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630762743,pair_id:39,user:,start:1552630726100
+2019-03-15 14:19:22,746 - INFO - 13567 - utils.py - save_label - Start save result,id = 39,label = 0
+2019-03-15 14:19:22,746 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:22",user= "" WHERE id = 39
+2019-03-15 14:19:22,829 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:22",user= "" WHERE id = 39
+2019-03-15 14:19:22,829 - INFO - 13567 - utils.py - save_label - Finish save result,id = 39,label = 0,user = 
+2019-03-15 14:19:22,830 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:22,830 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:22,830 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:22,830 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 40
+2019-03-15 14:19:22,913 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 40
+2019-03-15 14:19:22,913 - INFO - 13567 - utils.py - __init__ - Pair info i=100,j=3400,id=40
+2019-03-15 14:19:22,923 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:23,053 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630763049,pair_id:40,user:,start:1552630726100
+2019-03-15 14:19:23,053 - INFO - 13567 - utils.py - save_label - Start save result,id = 40,label = 0
+2019-03-15 14:19:23,054 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,179 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,180 - INFO - 13567 - utils.py - save_label - Finish save result,id = 40,label = 0,user = 
+2019-03-15 14:19:23,180 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,180 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,180 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:23,181 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 41
+2019-03-15 14:19:23,296 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 41
+2019-03-15 14:19:23,296 - INFO - 13567 - utils.py - __init__ - Pair info i=4077,j=10959,id=41
+2019-03-15 14:19:23,302 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:23,304 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630763258,pair_id:40,user:,start:1552630726100
+2019-03-15 14:19:23,304 - INFO - 13567 - utils.py - save_label - Start save result,id = 40,label = 0
+2019-03-15 14:19:23,304 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,309 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,310 - INFO - 13567 - utils.py - save_label - Finish save result,id = 40,label = 0,user = 
+2019-03-15 14:19:23,310 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,310 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,310 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:23,310 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 42
+2019-03-15 14:19:23,447 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 42
+2019-03-15 14:19:23,447 - INFO - 13567 - utils.py - __init__ - Pair info i=10383,j=3178,id=42
+2019-03-15 14:19:23,457 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:23,459 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630763409,pair_id:40,user:,start:1552630726100
+2019-03-15 14:19:23,460 - INFO - 13567 - utils.py - save_label - Start save result,id = 40,label = 0
+2019-03-15 14:19:23,460 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,466 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,466 - INFO - 13567 - utils.py - save_label - Finish save result,id = 40,label = 0,user = 
+2019-03-15 14:19:23,466 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,466 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,467 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:23,467 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 43
+2019-03-15 14:19:23,571 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 43
+2019-03-15 14:19:23,571 - INFO - 13567 - utils.py - __init__ - Pair info i=485,j=738,id=43
+2019-03-15 14:19:23,578 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:23,579 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630763546,pair_id:40,user:,start:1552630726100
+2019-03-15 14:19:23,579 - INFO - 13567 - utils.py - save_label - Start save result,id = 40,label = 0
+2019-03-15 14:19:23,579 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,583 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,583 - INFO - 13567 - utils.py - save_label - Finish save result,id = 40,label = 0,user = 
+2019-03-15 14:19:23,583 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,583 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,584 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:23,584 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 44
+2019-03-15 14:19:23,671 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 44
+2019-03-15 14:19:23,671 - INFO - 13567 - utils.py - __init__ - Pair info i=7426,j=1673,id=44
+2019-03-15 14:19:23,675 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:23,679 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630763673,pair_id:40,user:,start:1552630726100
+2019-03-15 14:19:23,680 - INFO - 13567 - utils.py - save_label - Start save result,id = 40,label = 0
+2019-03-15 14:19:23,680 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,683 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 40
+2019-03-15 14:19:23,683 - INFO - 13567 - utils.py - save_label - Finish save result,id = 40,label = 0,user = 
+2019-03-15 14:19:23,683 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,684 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,684 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:23,684 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 45
+2019-03-15 14:19:23,822 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 45
+2019-03-15 14:19:23,822 - INFO - 13567 - utils.py - __init__ - Pair info i=4,j=4837,id=45
+2019-03-15 14:19:23,830 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:23,865 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630763860,pair_id:45,user:,start:1552630726100
+2019-03-15 14:19:23,865 - INFO - 13567 - utils.py - save_label - Start save result,id = 45,label = 0
+2019-03-15 14:19:23,865 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 45
+2019-03-15 14:19:23,955 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:23",user= "" WHERE id = 45
+2019-03-15 14:19:23,955 - INFO - 13567 - utils.py - save_label - Finish save result,id = 45,label = 0,user = 
+2019-03-15 14:19:23,955 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,956 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:23,956 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:23,956 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 46
+2019-03-15 14:19:24,071 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 46
+2019-03-15 14:19:24,071 - INFO - 13567 - utils.py - __init__ - Pair info i=335,j=4332,id=46
+2019-03-15 14:19:24,079 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:24,081 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630763969,pair_id:45,user:,start:1552630726100
+2019-03-15 14:19:24,081 - INFO - 13567 - utils.py - save_label - Start save result,id = 45,label = 0
+2019-03-15 14:19:24,081 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 45
+2019-03-15 14:19:24,163 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 45
+2019-03-15 14:19:24,163 - INFO - 13567 - utils.py - save_label - Finish save result,id = 45,label = 0,user = 
+2019-03-15 14:19:24,163 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,164 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,164 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:24,164 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 47
+2019-03-15 14:19:24,238 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 47
+2019-03-15 14:19:24,238 - INFO - 13567 - utils.py - __init__ - Pair info i=3298,j=3288,id=47
+2019-03-15 14:19:24,247 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:24,249 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630764130,pair_id:45,user:,start:1552630726100
+2019-03-15 14:19:24,249 - INFO - 13567 - utils.py - save_label - Start save result,id = 45,label = 0
+2019-03-15 14:19:24,249 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 45
+2019-03-15 14:19:24,255 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 45
+2019-03-15 14:19:24,255 - INFO - 13567 - utils.py - save_label - Finish save result,id = 45,label = 0,user = 
+2019-03-15 14:19:24,255 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,256 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,256 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:24,256 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 48
+2019-03-15 14:19:24,339 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 48
+2019-03-15 14:19:24,339 - INFO - 13567 - utils.py - __init__ - Pair info i=2494,j=56,id=48
+2019-03-15 14:19:24,346 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:24,347 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630764274,pair_id:45,user:,start:1552630726100
+2019-03-15 14:19:24,347 - INFO - 13567 - utils.py - save_label - Start save result,id = 45,label = 0
+2019-03-15 14:19:24,347 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 45
+2019-03-15 14:19:24,351 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 45
+2019-03-15 14:19:24,351 - INFO - 13567 - utils.py - save_label - Finish save result,id = 45,label = 0,user = 
+2019-03-15 14:19:24,351 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,351 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,351 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:24,351 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 49
+2019-03-15 14:19:24,439 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 49
+2019-03-15 14:19:24,439 - INFO - 13567 - utils.py - __init__ - Pair info i=829,j=1543,id=49
+2019-03-15 14:19:24,448 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:24,449 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630764425,pair_id:45,user:,start:1552630726100
+2019-03-15 14:19:24,449 - INFO - 13567 - utils.py - save_label - Start save result,id = 45,label = 0
+2019-03-15 14:19:24,450 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 45
+2019-03-15 14:19:24,455 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 45
+2019-03-15 14:19:24,455 - INFO - 13567 - utils.py - save_label - Finish save result,id = 45,label = 0,user = 
+2019-03-15 14:19:24,455 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,456 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,456 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:24,456 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 50
+2019-03-15 14:19:24,538 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 50
+2019-03-15 14:19:24,538 - INFO - 13567 - utils.py - __init__ - Pair info i=100,j=284,id=50
+2019-03-15 14:19:24,547 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:24,568 - INFO - 13567 - start.py - update_data - right:1552630755441, left:1552630764565,pair_id:50,user:,start:1552630726100
+2019-03-15 14:19:24,568 - INFO - 13567 - utils.py - save_label - Start save result,id = 50,label = 0
+2019-03-15 14:19:24,568 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 50
+2019-03-15 14:19:24,672 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:19:24",user= "" WHERE id = 50
+2019-03-15 14:19:24,672 - INFO - 13567 - utils.py - save_label - Finish save result,id = 50,label = 0,user = 
+2019-03-15 14:19:24,672 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,672 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:24,672 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:24,672 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 51
+2019-03-15 14:19:24,738 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 51
+2019-03-15 14:19:24,739 - INFO - 13567 - utils.py - __init__ - Pair info i=272,j=883,id=51
+2019-03-15 14:19:24,748 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:29,540 - INFO - 13567 - start.py - update_data - right:1552630769537, left:1552630764565,pair_id:51,user:,start:1552630726100
+2019-03-15 14:19:29,540 - INFO - 13567 - utils.py - save_label - Start save result,id = 51,label = 1
+2019-03-15 14:19:29,541 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:29",user= "" WHERE id = 51
+2019-03-15 14:19:29,635 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:29",user= "" WHERE id = 51
+2019-03-15 14:19:29,636 - INFO - 13567 - utils.py - save_label - Finish save result,id = 51,label = 1,user = 
+2019-03-15 14:19:29,636 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:29,636 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:29,636 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:29,636 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 52
+2019-03-15 14:19:29,736 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 52
+2019-03-15 14:19:29,737 - INFO - 13567 - utils.py - __init__ - Pair info i=883,j=9839,id=52
+2019-03-15 14:19:29,747 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:29,749 - INFO - 13567 - start.py - update_data - right:1552630769690, left:1552630764565,pair_id:51,user:,start:1552630726100
+2019-03-15 14:19:29,749 - INFO - 13567 - utils.py - save_label - Start save result,id = 51,label = 1
+2019-03-15 14:19:29,750 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:29",user= "" WHERE id = 51
+2019-03-15 14:19:29,756 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:29",user= "" WHERE id = 51
+2019-03-15 14:19:29,756 - INFO - 13567 - utils.py - save_label - Finish save result,id = 51,label = 1,user = 
+2019-03-15 14:19:29,757 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:29,757 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:29,757 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:29,758 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 53
+2019-03-15 14:19:29,840 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 53
+2019-03-15 14:19:29,841 - INFO - 13567 - utils.py - __init__ - Pair info i=1054,j=4837,id=53
+2019-03-15 14:19:29,850 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:29,852 - INFO - 13567 - start.py - update_data - right:1552630769826, left:1552630764565,pair_id:51,user:,start:1552630726100
+2019-03-15 14:19:29,852 - INFO - 13567 - utils.py - save_label - Start save result,id = 51,label = 1
+2019-03-15 14:19:29,852 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:29",user= "" WHERE id = 51
+2019-03-15 14:19:29,857 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:29",user= "" WHERE id = 51
+2019-03-15 14:19:29,857 - INFO - 13567 - utils.py - save_label - Finish save result,id = 51,label = 1,user = 
+2019-03-15 14:19:29,857 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:29,857 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:29,857 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:29,857 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 54
+2019-03-15 14:19:29,915 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 54
+2019-03-15 14:19:29,915 - INFO - 13567 - utils.py - __init__ - Pair info i=9874,j=1251,id=54
+2019-03-15 14:19:29,918 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:29,964 - INFO - 13567 - start.py - update_data - right:1552630769961, left:1552630764565,pair_id:54,user:,start:1552630726100
+2019-03-15 14:19:29,964 - INFO - 13567 - utils.py - save_label - Start save result,id = 54,label = 1
+2019-03-15 14:19:29,964 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:29",user= "" WHERE id = 54
+2019-03-15 14:19:30,040 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:29",user= "" WHERE id = 54
+2019-03-15 14:19:30,040 - INFO - 13567 - utils.py - save_label - Finish save result,id = 54,label = 1,user = 
+2019-03-15 14:19:30,040 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,041 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,041 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:30,041 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 55
+2019-03-15 14:19:30,098 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 55
+2019-03-15 14:19:30,099 - INFO - 13567 - utils.py - __init__ - Pair info i=2541,j=722,id=55
+2019-03-15 14:19:30,107 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:30,109 - INFO - 13567 - start.py - update_data - right:1552630770090, left:1552630764565,pair_id:54,user:,start:1552630726100
+2019-03-15 14:19:30,109 - INFO - 13567 - utils.py - save_label - Start save result,id = 54,label = 1
+2019-03-15 14:19:30,110 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 54
+2019-03-15 14:19:30,190 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 54
+2019-03-15 14:19:30,190 - INFO - 13567 - utils.py - save_label - Finish save result,id = 54,label = 1,user = 
+2019-03-15 14:19:30,190 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,191 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,191 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:30,191 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 56
+2019-03-15 14:19:30,274 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 56
+2019-03-15 14:19:30,275 - INFO - 13567 - utils.py - __init__ - Pair info i=8652,j=4077,id=56
+2019-03-15 14:19:30,284 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:30,285 - INFO - 13567 - start.py - update_data - right:1552630770226, left:1552630764565,pair_id:54,user:,start:1552630726100
+2019-03-15 14:19:30,285 - INFO - 13567 - utils.py - save_label - Start save result,id = 54,label = 1
+2019-03-15 14:19:30,285 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 54
+2019-03-15 14:19:30,289 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 54
+2019-03-15 14:19:30,289 - INFO - 13567 - utils.py - save_label - Finish save result,id = 54,label = 1,user = 
+2019-03-15 14:19:30,289 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,290 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,290 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:30,290 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 57
+2019-03-15 14:19:30,348 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 57
+2019-03-15 14:19:30,349 - INFO - 13567 - utils.py - __init__ - Pair info i=190,j=4,id=57
+2019-03-15 14:19:30,358 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:30,359 - INFO - 13567 - start.py - update_data - right:1552630770354, left:1552630764565,pair_id:54,user:,start:1552630726100
+2019-03-15 14:19:30,360 - INFO - 13567 - utils.py - save_label - Start save result,id = 54,label = 1
+2019-03-15 14:19:30,360 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 54
+2019-03-15 14:19:30,365 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 54
+2019-03-15 14:19:30,366 - INFO - 13567 - utils.py - save_label - Finish save result,id = 54,label = 1,user = 
+2019-03-15 14:19:30,366 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,366 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,366 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:30,366 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 58
+2019-03-15 14:19:30,498 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 58
+2019-03-15 14:19:30,499 - INFO - 13567 - utils.py - __init__ - Pair info i=2405,j=9839,id=58
+2019-03-15 14:19:30,505 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:30,531 - INFO - 13567 - start.py - update_data - right:1552630770527, left:1552630764565,pair_id:58,user:,start:1552630726100
+2019-03-15 14:19:30,532 - INFO - 13567 - utils.py - save_label - Start save result,id = 58,label = 1
+2019-03-15 14:19:30,532 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 58
+2019-03-15 14:19:30,624 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 58
+2019-03-15 14:19:30,625 - INFO - 13567 - utils.py - save_label - Finish save result,id = 58,label = 1,user = 
+2019-03-15 14:19:30,625 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,625 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,625 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:30,625 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 59
+2019-03-15 14:19:30,707 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 59
+2019-03-15 14:19:30,707 - INFO - 13567 - utils.py - __init__ - Pair info i=1930,j=6843,id=59
+2019-03-15 14:19:30,715 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:30,717 - INFO - 13567 - start.py - update_data - right:1552630770650, left:1552630764565,pair_id:58,user:,start:1552630726100
+2019-03-15 14:19:30,717 - INFO - 13567 - utils.py - save_label - Start save result,id = 58,label = 1
+2019-03-15 14:19:30,717 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 58
+2019-03-15 14:19:30,721 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 58
+2019-03-15 14:19:30,721 - INFO - 13567 - utils.py - save_label - Finish save result,id = 58,label = 1,user = 
+2019-03-15 14:19:30,721 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,721 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,721 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:30,721 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 60
+2019-03-15 14:19:30,832 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 60
+2019-03-15 14:19:30,832 - INFO - 13567 - utils.py - __init__ - Pair info i=9929,j=9916,id=60
+2019-03-15 14:19:30,839 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:30,840 - INFO - 13567 - start.py - update_data - right:1552630770778, left:1552630764565,pair_id:58,user:,start:1552630726100
+2019-03-15 14:19:30,840 - INFO - 13567 - utils.py - save_label - Start save result,id = 58,label = 1
+2019-03-15 14:19:30,840 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 58
+2019-03-15 14:19:30,845 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 58
+2019-03-15 14:19:30,845 - INFO - 13567 - utils.py - save_label - Finish save result,id = 58,label = 1,user = 
+2019-03-15 14:19:30,845 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,845 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,845 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:30,845 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 61
+2019-03-15 14:19:30,932 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 61
+2019-03-15 14:19:30,932 - INFO - 13567 - utils.py - __init__ - Pair info i=335,j=6843,id=61
+2019-03-15 14:19:30,939 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:19:30,941 - INFO - 13567 - start.py - update_data - right:1552630770914, left:1552630764565,pair_id:58,user:,start:1552630726100
+2019-03-15 14:19:30,941 - INFO - 13567 - utils.py - save_label - Start save result,id = 58,label = 1
+2019-03-15 14:19:30,942 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 58
+2019-03-15 14:19:30,945 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:19:30",user= "" WHERE id = 58
+2019-03-15 14:19:30,945 - INFO - 13567 - utils.py - save_label - Finish save result,id = 58,label = 1,user = 
+2019-03-15 14:19:30,945 - INFO - 13567 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,945 - INFO - 13567 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:19:30,945 - INFO - 13567 - utils.py - __init__ - Start select one pair
+2019-03-15 14:19:30,946 - INFO - 13567 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 62
+2019-03-15 14:19:31,015 - INFO - 13567 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 62
+2019-03-15 14:19:31,015 - INFO - 13567 - utils.py - __init__ - Pair info i=738,j=3178,id=62
+2019-03-15 14:19:31,024 - INFO - 13567 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:19:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:21:55,715 - INFO - 13819 - _internal.py - _log -  * Running on http://0.0.0.0:8004/ (Press CTRL+C to quit)
+2019-03-15 14:21:59,889 - INFO - 13819 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:21:59] "GET / HTTP/1.1" 200 -
+2019-03-15 14:22:01,580 - INFO - 13819 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:01] "GET /_dash-layout HTTP/1.1" 200 -
+2019-03-15 14:22:01,581 - INFO - 13819 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:01] "GET /_dash-dependencies HTTP/1.1" 200 -
+2019-03-15 14:22:01,601 - INFO - 13819 - start.py - update_data - Not click start~
+2019-03-15 14:22:01,602 - INFO - 13819 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:01] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:01,733 - INFO - 13819 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:01] "GET /_favicon.ico HTTP/1.1" 200 -
+2019-03-15 14:22:03,171 - INFO - 13819 - start.py - update_data - right:None, left:None,pair_id:,user:,start:1552630923162
+2019-03-15 14:22:03,171 - INFO - 13819 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:03,172 - INFO - 13819 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:03,172 - INFO - 13819 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:03,172 - INFO - 13819 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 63
+2019-03-15 14:22:03,283 - INFO - 13819 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 63
+2019-03-15 14:22:03,283 - INFO - 13819 - utils.py - __init__ - Pair info i=4786,j=2363,id=63
+2019-03-15 14:22:03,315 - INFO - 13819 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:03] "POST /_dash-update-component HTTP/1.1" 500 -
+2019-03-15 14:22:27,687 - INFO - 13901 - _internal.py - _log -  * Running on http://0.0.0.0:8004/ (Press CTRL+C to quit)
+2019-03-15 14:22:29,619 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:29] "GET / HTTP/1.1" 200 -
+2019-03-15 14:22:31,484 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:31] "GET /_dash-layout HTTP/1.1" 200 -
+2019-03-15 14:22:31,485 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:31] "GET /_dash-dependencies HTTP/1.1" 200 -
+2019-03-15 14:22:31,500 - INFO - 13901 - start.py - update_data - Not click start~
+2019-03-15 14:22:31,500 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:31,629 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:31] "GET /_favicon.ico HTTP/1.1" 200 -
+2019-03-15 14:22:32,649 - INFO - 13901 - start.py - update_data - right:None, left:None,pair_id:,user:,start:1552630952642
+2019-03-15 14:22:32,649 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:32,650 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:32,650 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:32,650 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 64
+2019-03-15 14:22:32,751 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 64
+2019-03-15 14:22:32,751 - INFO - 13901 - utils.py - __init__ - Pair info i=4,j=71,id=64
+2019-03-15 14:22:32,760 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:33,655 - INFO - 13901 - start.py - update_data - right:1552630953648, left:None,pair_id:64,user:,start:1552630952642
+2019-03-15 14:22:33,655 - INFO - 13901 - utils.py - save_label - Start save result,id = 64,label = 1
+2019-03-15 14:22:33,656 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:33",user= "" WHERE id = 64
+2019-03-15 14:22:33,760 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:33",user= "" WHERE id = 64
+2019-03-15 14:22:33,760 - INFO - 13901 - utils.py - save_label - Finish save result,id = 64,label = 1,user = 
+2019-03-15 14:22:33,760 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:33,761 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:33,761 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:33,761 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 65
+2019-03-15 14:22:33,943 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 65
+2019-03-15 14:22:33,944 - INFO - 13901 - utils.py - __init__ - Pair info i=107,j=12812,id=65
+2019-03-15 14:22:33,957 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:34,529 - INFO - 13901 - start.py - update_data - right:1552630954520, left:None,pair_id:65,user:,start:1552630952642
+2019-03-15 14:22:34,529 - INFO - 13901 - utils.py - save_label - Start save result,id = 65,label = 1
+2019-03-15 14:22:34,529 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:34",user= "" WHERE id = 65
+2019-03-15 14:22:34,627 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:34",user= "" WHERE id = 65
+2019-03-15 14:22:34,627 - INFO - 13901 - utils.py - save_label - Finish save result,id = 65,label = 1,user = 
+2019-03-15 14:22:34,627 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:34,627 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:34,627 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:34,627 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 66
+2019-03-15 14:22:34,701 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 66
+2019-03-15 14:22:34,701 - INFO - 13901 - utils.py - __init__ - Pair info i=6640,j=53,id=66
+2019-03-15 14:22:34,710 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:35,137 - INFO - 13901 - start.py - update_data - right:1552630955128, left:None,pair_id:66,user:,start:1552630952642
+2019-03-15 14:22:35,137 - INFO - 13901 - utils.py - save_label - Start save result,id = 66,label = 1
+2019-03-15 14:22:35,137 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:35",user= "" WHERE id = 66
+2019-03-15 14:22:35,252 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:35",user= "" WHERE id = 66
+2019-03-15 14:22:35,252 - INFO - 13901 - utils.py - save_label - Finish save result,id = 66,label = 1,user = 
+2019-03-15 14:22:35,252 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:35,253 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:35,253 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:35,253 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 67
+2019-03-15 14:22:35,351 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 67
+2019-03-15 14:22:35,351 - INFO - 13901 - utils.py - __init__ - Pair info i=11736,j=78,id=67
+2019-03-15 14:22:35,359 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:35,793 - INFO - 13901 - start.py - update_data - right:1552630955784, left:None,pair_id:67,user:,start:1552630952642
+2019-03-15 14:22:35,793 - INFO - 13901 - utils.py - save_label - Start save result,id = 67,label = 1
+2019-03-15 14:22:35,794 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:35",user= "" WHERE id = 67
+2019-03-15 14:22:35,876 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:35",user= "" WHERE id = 67
+2019-03-15 14:22:35,876 - INFO - 13901 - utils.py - save_label - Finish save result,id = 67,label = 1,user = 
+2019-03-15 14:22:35,877 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:35,877 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:35,878 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:35,878 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 68
+2019-03-15 14:22:35,959 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 68
+2019-03-15 14:22:35,960 - INFO - 13901 - utils.py - __init__ - Pair info i=335,j=119,id=68
+2019-03-15 14:22:35,968 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:36,456 - INFO - 13901 - start.py - update_data - right:1552630956448, left:None,pair_id:68,user:,start:1552630952642
+2019-03-15 14:22:36,456 - INFO - 13901 - utils.py - save_label - Start save result,id = 68,label = 1
+2019-03-15 14:22:36,457 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:36",user= "" WHERE id = 68
+2019-03-15 14:22:36,543 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:36",user= "" WHERE id = 68
+2019-03-15 14:22:36,543 - INFO - 13901 - utils.py - save_label - Finish save result,id = 68,label = 1,user = 
+2019-03-15 14:22:36,543 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:36,544 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:36,544 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:36,544 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 69
+2019-03-15 14:22:36,660 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 69
+2019-03-15 14:22:36,660 - INFO - 13901 - utils.py - __init__ - Pair info i=2869,j=70,id=69
+2019-03-15 14:22:36,668 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:36] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:37,165 - INFO - 13901 - start.py - update_data - right:1552630956448, left:1552630957159,pair_id:69,user:,start:1552630952642
+2019-03-15 14:22:37,165 - INFO - 13901 - utils.py - save_label - Start save result,id = 69,label = 0
+2019-03-15 14:22:37,165 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:22:37",user= "" WHERE id = 69
+2019-03-15 14:22:37,360 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:22:37",user= "" WHERE id = 69
+2019-03-15 14:22:37,360 - INFO - 13901 - utils.py - save_label - Finish save result,id = 69,label = 0,user = 
+2019-03-15 14:22:37,361 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:37,361 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:37,361 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:37,362 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 70
+2019-03-15 14:22:37,443 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 70
+2019-03-15 14:22:37,444 - INFO - 13901 - utils.py - __init__ - Pair info i=3034,j=12018,id=70
+2019-03-15 14:22:37,453 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:37,605 - INFO - 13901 - start.py - update_data - right:1552630957595, left:1552630957159,pair_id:70,user:,start:1552630952642
+2019-03-15 14:22:37,606 - INFO - 13901 - utils.py - save_label - Start save result,id = 70,label = 1
+2019-03-15 14:22:37,606 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:37",user= "" WHERE id = 70
+2019-03-15 14:22:37,693 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:37",user= "" WHERE id = 70
+2019-03-15 14:22:37,694 - INFO - 13901 - utils.py - save_label - Finish save result,id = 70,label = 1,user = 
+2019-03-15 14:22:37,694 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:37,694 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:37,694 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:37,694 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 71
+2019-03-15 14:22:37,777 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 71
+2019-03-15 14:22:37,777 - INFO - 13901 - utils.py - __init__ - Pair info i=3034,j=3046,id=71
+2019-03-15 14:22:37,786 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:37] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:37,867 - INFO - 13901 - start.py - update_data - right:1552630957595, left:1552630957863,pair_id:71,user:,start:1552630952642
+2019-03-15 14:22:37,868 - INFO - 13901 - utils.py - save_label - Start save result,id = 71,label = 0
+2019-03-15 14:22:37,868 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:22:37",user= "" WHERE id = 71
+2019-03-15 14:22:37,952 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:22:37",user= "" WHERE id = 71
+2019-03-15 14:22:37,952 - INFO - 13901 - utils.py - save_label - Finish save result,id = 71,label = 0,user = 
+2019-03-15 14:22:37,952 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:37,953 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:37,953 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:37,953 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 72
+2019-03-15 14:22:38,019 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 72
+2019-03-15 14:22:38,020 - INFO - 13901 - utils.py - __init__ - Pair info i=2584,j=1464,id=72
+2019-03-15 14:22:38,027 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:38,155 - INFO - 13901 - start.py - update_data - right:1552630958151, left:1552630957863,pair_id:72,user:,start:1552630952642
+2019-03-15 14:22:38,155 - INFO - 13901 - utils.py - save_label - Start save result,id = 72,label = 1
+2019-03-15 14:22:38,156 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:38",user= "" WHERE id = 72
+2019-03-15 14:22:38,278 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:38",user= "" WHERE id = 72
+2019-03-15 14:22:38,278 - INFO - 13901 - utils.py - save_label - Finish save result,id = 72,label = 1,user = 
+2019-03-15 14:22:38,278 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:38,279 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:38,279 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:38,279 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 73
+2019-03-15 14:22:38,352 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 73
+2019-03-15 14:22:38,352 - INFO - 13901 - utils.py - __init__ - Pair info i=1450,j=883,id=73
+2019-03-15 14:22:38,361 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:38,437 - INFO - 13901 - start.py - update_data - right:1552630958151, left:1552630958431,pair_id:73,user:,start:1552630952642
+2019-03-15 14:22:38,437 - INFO - 13901 - utils.py - save_label - Start save result,id = 73,label = 0
+2019-03-15 14:22:38,437 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:22:38",user= "" WHERE id = 73
+2019-03-15 14:22:38,518 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:22:38",user= "" WHERE id = 73
+2019-03-15 14:22:38,519 - INFO - 13901 - utils.py - save_label - Finish save result,id = 73,label = 0,user = 
+2019-03-15 14:22:38,519 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:38,520 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:38,520 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:38,520 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 74
+2019-03-15 14:22:38,585 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 74
+2019-03-15 14:22:38,586 - INFO - 13901 - utils.py - __init__ - Pair info i=1687,j=12905,id=74
+2019-03-15 14:22:38,600 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:38,657 - INFO - 13901 - start.py - update_data - right:1552630958655, left:1552630958431,pair_id:74,user:,start:1552630952642
+2019-03-15 14:22:38,658 - INFO - 13901 - utils.py - save_label - Start save result,id = 74,label = 1
+2019-03-15 14:22:38,658 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:38",user= "" WHERE id = 74
+2019-03-15 14:22:38,727 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:38",user= "" WHERE id = 74
+2019-03-15 14:22:38,727 - INFO - 13901 - utils.py - save_label - Finish save result,id = 74,label = 1,user = 
+2019-03-15 14:22:38,727 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:38,728 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:38,728 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:38,728 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 75
+2019-03-15 14:22:38,810 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 75
+2019-03-15 14:22:38,811 - INFO - 13901 - utils.py - __init__ - Pair info i=11349,j=8321,id=75
+2019-03-15 14:22:38,820 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:38] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:38,892 - INFO - 13901 - start.py - update_data - right:1552630958655, left:1552630958887,pair_id:75,user:,start:1552630952642
+2019-03-15 14:22:38,892 - INFO - 13901 - utils.py - save_label - Start save result,id = 75,label = 0
+2019-03-15 14:22:38,892 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:22:38",user= "" WHERE id = 75
+2019-03-15 14:22:38,986 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:22:38",user= "" WHERE id = 75
+2019-03-15 14:22:38,987 - INFO - 13901 - utils.py - save_label - Finish save result,id = 75,label = 0,user = 
+2019-03-15 14:22:38,987 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:38,987 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:38,987 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:38,988 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 76
+2019-03-15 14:22:39,078 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 76
+2019-03-15 14:22:39,078 - INFO - 13901 - utils.py - __init__ - Pair info i=1207,j=4196,id=76
+2019-03-15 14:22:39,087 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:39] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:39,903 - INFO - 13901 - start.py - update_data - right:1552630959896, left:1552630958887,pair_id:76,user:,start:1552630952642
+2019-03-15 14:22:39,903 - INFO - 13901 - utils.py - save_label - Start save result,id = 76,label = 1
+2019-03-15 14:22:39,903 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:39",user= "" WHERE id = 76
+2019-03-15 14:22:39,995 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:39",user= "" WHERE id = 76
+2019-03-15 14:22:39,995 - INFO - 13901 - utils.py - save_label - Finish save result,id = 76,label = 1,user = 
+2019-03-15 14:22:39,996 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:39,996 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:39,996 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:39,996 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 77
+2019-03-15 14:22:40,069 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 77
+2019-03-15 14:22:40,069 - INFO - 13901 - utils.py - __init__ - Pair info i=1073,j=7129,id=77
+2019-03-15 14:22:40,077 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:40,106 - INFO - 13901 - start.py - update_data - right:1552630960102, left:1552630958887,pair_id:77,user:,start:1552630952642
+2019-03-15 14:22:40,106 - INFO - 13901 - utils.py - save_label - Start save result,id = 77,label = 1
+2019-03-15 14:22:40,107 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 77
+2019-03-15 14:22:40,228 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 77
+2019-03-15 14:22:40,229 - INFO - 13901 - utils.py - save_label - Finish save result,id = 77,label = 1,user = 
+2019-03-15 14:22:40,229 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,229 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,229 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:40,230 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 78
+2019-03-15 14:22:40,302 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 78
+2019-03-15 14:22:40,303 - INFO - 13901 - utils.py - __init__ - Pair info i=5960,j=715,id=78
+2019-03-15 14:22:40,311 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:40,314 - INFO - 13901 - start.py - update_data - right:1552630960215, left:1552630958887,pair_id:77,user:,start:1552630952642
+2019-03-15 14:22:40,314 - INFO - 13901 - utils.py - save_label - Start save result,id = 77,label = 1
+2019-03-15 14:22:40,314 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 77
+2019-03-15 14:22:40,320 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 77
+2019-03-15 14:22:40,320 - INFO - 13901 - utils.py - save_label - Finish save result,id = 77,label = 1,user = 
+2019-03-15 14:22:40,320 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,321 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,321 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:40,321 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 79
+2019-03-15 14:22:40,395 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 79
+2019-03-15 14:22:40,395 - INFO - 13901 - utils.py - __init__ - Pair info i=2974,j=1251,id=79
+2019-03-15 14:22:40,403 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:40,404 - INFO - 13901 - start.py - update_data - right:1552630960352, left:1552630958887,pair_id:77,user:,start:1552630952642
+2019-03-15 14:22:40,404 - INFO - 13901 - utils.py - save_label - Start save result,id = 77,label = 1
+2019-03-15 14:22:40,405 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 77
+2019-03-15 14:22:40,410 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 77
+2019-03-15 14:22:40,410 - INFO - 13901 - utils.py - save_label - Finish save result,id = 77,label = 1,user = 
+2019-03-15 14:22:40,410 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,411 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,411 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:40,411 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 80
+2019-03-15 14:22:40,479 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 80
+2019-03-15 14:22:40,479 - INFO - 13901 - utils.py - __init__ - Pair info i=473,j=4740,id=80
+2019-03-15 14:22:40,487 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:40,493 - INFO - 13901 - start.py - update_data - right:1552630960487, left:1552630958887,pair_id:77,user:,start:1552630952642
+2019-03-15 14:22:40,493 - INFO - 13901 - utils.py - save_label - Start save result,id = 77,label = 1
+2019-03-15 14:22:40,493 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 77
+2019-03-15 14:22:40,499 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 77
+2019-03-15 14:22:40,499 - INFO - 13901 - utils.py - save_label - Finish save result,id = 77,label = 1,user = 
+2019-03-15 14:22:40,499 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,500 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,500 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:40,500 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 81
+2019-03-15 14:22:40,579 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 81
+2019-03-15 14:22:40,579 - INFO - 13901 - utils.py - __init__ - Pair info i=1183,j=53,id=81
+2019-03-15 14:22:40,588 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:40,645 - INFO - 13901 - start.py - update_data - right:1552630960639, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:40,645 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:40,646 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 81
+2019-03-15 14:22:40,754 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 81
+2019-03-15 14:22:40,754 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:40,755 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,755 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,755 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:40,755 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 82
+2019-03-15 14:22:40,829 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 82
+2019-03-15 14:22:40,829 - INFO - 13901 - utils.py - __init__ - Pair info i=11753,j=673,id=82
+2019-03-15 14:22:40,837 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:40,839 - INFO - 13901 - start.py - update_data - right:1552630960768, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:40,839 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:40,839 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 81
+2019-03-15 14:22:40,845 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 81
+2019-03-15 14:22:40,845 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:40,845 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,846 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,846 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:40,846 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 83
+2019-03-15 14:22:40,920 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 83
+2019-03-15 14:22:40,921 - INFO - 13901 - utils.py - __init__ - Pair info i=1370,j=9965,id=83
+2019-03-15 14:22:40,929 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:40] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:40,931 - INFO - 13901 - start.py - update_data - right:1552630960896, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:40,931 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:40,931 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 81
+2019-03-15 14:22:40,937 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:40",user= "" WHERE id = 81
+2019-03-15 14:22:40,937 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:40,937 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,937 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:40,938 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:40,938 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 84
+2019-03-15 14:22:41,037 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 84
+2019-03-15 14:22:41,038 - INFO - 13901 - utils.py - __init__ - Pair info i=326,j=2358,id=84
+2019-03-15 14:22:41,047 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:41,049 - INFO - 13901 - start.py - update_data - right:1552630961024, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:41,049 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:41,050 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,144 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,145 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:41,145 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,145 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,145 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:41,146 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 85
+2019-03-15 14:22:41,228 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 85
+2019-03-15 14:22:41,228 - INFO - 13901 - utils.py - __init__ - Pair info i=1063,j=6641,id=85
+2019-03-15 14:22:41,237 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:41,239 - INFO - 13901 - start.py - update_data - right:1552630961159, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:41,239 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:41,239 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,245 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,246 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:41,246 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,246 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,246 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:41,247 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 86
+2019-03-15 14:22:41,328 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 86
+2019-03-15 14:22:41,328 - INFO - 13901 - utils.py - __init__ - Pair info i=3034,j=8321,id=86
+2019-03-15 14:22:41,339 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:41,341 - INFO - 13901 - start.py - update_data - right:1552630961288, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:41,341 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:41,342 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,347 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,347 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:41,348 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,348 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,348 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:41,348 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 87
+2019-03-15 14:22:41,436 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 87
+2019-03-15 14:22:41,436 - INFO - 13901 - utils.py - __init__ - Pair info i=80,j=78,id=87
+2019-03-15 14:22:41,446 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:41,447 - INFO - 13901 - start.py - update_data - right:1552630961400, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:41,448 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:41,448 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,454 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,454 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:41,454 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,454 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,455 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:41,455 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 88
+2019-03-15 14:22:41,597 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 88
+2019-03-15 14:22:41,597 - INFO - 13901 - utils.py - __init__ - Pair info i=12156,j=11504,id=88
+2019-03-15 14:22:41,607 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:41,610 - INFO - 13901 - start.py - update_data - right:1552630961544, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:41,610 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:41,610 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,617 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,618 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:41,618 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,618 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,619 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:41,619 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 89
+2019-03-15 14:22:41,754 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 89
+2019-03-15 14:22:41,754 - INFO - 13901 - utils.py - __init__ - Pair info i=12407,j=9366,id=89
+2019-03-15 14:22:41,764 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:22:41,765 - INFO - 13901 - start.py - update_data - right:1552630961664, left:1552630958887,pair_id:81,user:,start:1552630952642
+2019-03-15 14:22:41,766 - INFO - 13901 - utils.py - save_label - Start save result,id = 81,label = 1
+2019-03-15 14:22:41,766 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,771 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:22:41",user= "" WHERE id = 81
+2019-03-15 14:22:41,771 - INFO - 13901 - utils.py - save_label - Finish save result,id = 81,label = 1,user = 
+2019-03-15 14:22:41,772 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,772 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:22:41,772 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:22:41,772 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 90
+2019-03-15 14:22:41,929 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 90
+2019-03-15 14:22:41,930 - INFO - 13901 - utils.py - __init__ - Pair info i=2455,j=1772,id=90
+2019-03-15 14:22:41,939 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:22:41] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:06,451 - INFO - 13901 - start.py - update_data - right:1552630986448, left:1552630958887,pair_id:90,user:,start:1552630952642
+2019-03-15 14:23:06,451 - INFO - 13901 - utils.py - save_label - Start save result,id = 90,label = 1
+2019-03-15 14:23:06,451 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:06",user= "" WHERE id = 90
+2019-03-15 14:23:06,536 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:06",user= "" WHERE id = 90
+2019-03-15 14:23:06,536 - INFO - 13901 - utils.py - save_label - Finish save result,id = 90,label = 1,user = 
+2019-03-15 14:23:06,537 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:06,537 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:06,537 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:06,538 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 91
+2019-03-15 14:23:06,611 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 91
+2019-03-15 14:23:06,611 - INFO - 13901 - utils.py - __init__ - Pair info i=11349,j=7540,id=91
+2019-03-15 14:23:06,623 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:06] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:06,935 - INFO - 13901 - start.py - update_data - right:1552630986929, left:1552630958887,pair_id:91,user:,start:1552630952642
+2019-03-15 14:23:06,935 - INFO - 13901 - utils.py - save_label - Start save result,id = 91,label = 1
+2019-03-15 14:23:06,935 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:06",user= "" WHERE id = 91
+2019-03-15 14:23:07,079 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:06",user= "" WHERE id = 91
+2019-03-15 14:23:07,079 - INFO - 13901 - utils.py - save_label - Finish save result,id = 91,label = 1,user = 
+2019-03-15 14:23:07,079 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:07,080 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:07,080 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:07,080 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 92
+2019-03-15 14:23:07,228 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 92
+2019-03-15 14:23:07,228 - INFO - 13901 - utils.py - __init__ - Pair info i=1864,j=4603,id=92
+2019-03-15 14:23:07,238 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:07] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:10,111 - INFO - 13901 - start.py - update_data - right:1552630986929, left:1552630990104,pair_id:92,user:,start:1552630952642
+2019-03-15 14:23:10,111 - INFO - 13901 - utils.py - save_label - Start save result,id = 92,label = 0
+2019-03-15 14:23:10,111 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:10",user= "" WHERE id = 92
+2019-03-15 14:23:10,197 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:10",user= "" WHERE id = 92
+2019-03-15 14:23:10,197 - INFO - 13901 - utils.py - save_label - Finish save result,id = 92,label = 0,user = 
+2019-03-15 14:23:10,197 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:10,197 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:10,198 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:10,198 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 93
+2019-03-15 14:23:10,321 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 93
+2019-03-15 14:23:10,321 - INFO - 13901 - utils.py - __init__ - Pair info i=2541,j=8650,id=93
+2019-03-15 14:23:10,329 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:10,629 - INFO - 13901 - start.py - update_data - right:1552630990624, left:1552630990104,pair_id:93,user:,start:1552630952642
+2019-03-15 14:23:10,630 - INFO - 13901 - utils.py - save_label - Start save result,id = 93,label = 1
+2019-03-15 14:23:10,630 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:10",user= "" WHERE id = 93
+2019-03-15 14:23:10,754 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:10",user= "" WHERE id = 93
+2019-03-15 14:23:10,754 - INFO - 13901 - utils.py - save_label - Finish save result,id = 93,label = 1,user = 
+2019-03-15 14:23:10,755 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:10,755 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:10,756 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:10,756 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 94
+2019-03-15 14:23:10,862 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 94
+2019-03-15 14:23:10,863 - INFO - 13901 - utils.py - __init__ - Pair info i=648,j=10755,id=94
+2019-03-15 14:23:10,871 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:11,049 - INFO - 13901 - start.py - update_data - right:1552630990624, left:1552630991041,pair_id:94,user:,start:1552630952642
+2019-03-15 14:23:11,050 - INFO - 13901 - utils.py - save_label - Start save result,id = 94,label = 0
+2019-03-15 14:23:11,050 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:11",user= "" WHERE id = 94
+2019-03-15 14:23:11,180 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:11",user= "" WHERE id = 94
+2019-03-15 14:23:11,180 - INFO - 13901 - utils.py - save_label - Finish save result,id = 94,label = 0,user = 
+2019-03-15 14:23:11,181 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:11,181 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:11,181 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:11,182 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 95
+2019-03-15 14:23:11,263 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 95
+2019-03-15 14:23:11,263 - INFO - 13901 - utils.py - __init__ - Pair info i=4159,j=2443,id=95
+2019-03-15 14:23:11,273 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:11,448 - INFO - 13901 - start.py - update_data - right:1552630991441, left:1552630991041,pair_id:95,user:,start:1552630952642
+2019-03-15 14:23:11,448 - INFO - 13901 - utils.py - save_label - Start save result,id = 95,label = 1
+2019-03-15 14:23:11,449 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:11",user= "" WHERE id = 95
+2019-03-15 14:23:11,529 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:11",user= "" WHERE id = 95
+2019-03-15 14:23:11,530 - INFO - 13901 - utils.py - save_label - Finish save result,id = 95,label = 1,user = 
+2019-03-15 14:23:11,530 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:11,530 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:11,530 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:11,531 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 96
+2019-03-15 14:23:11,621 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 96
+2019-03-15 14:23:11,621 - INFO - 13901 - utils.py - __init__ - Pair info i=89,j=1327,id=96
+2019-03-15 14:23:11,627 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:11,864 - INFO - 13901 - start.py - update_data - right:1552630991441, left:1552630991857,pair_id:96,user:,start:1552630952642
+2019-03-15 14:23:11,864 - INFO - 13901 - utils.py - save_label - Start save result,id = 96,label = 0
+2019-03-15 14:23:11,865 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:11",user= "" WHERE id = 96
+2019-03-15 14:23:11,939 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:11",user= "" WHERE id = 96
+2019-03-15 14:23:11,939 - INFO - 13901 - utils.py - save_label - Finish save result,id = 96,label = 0,user = 
+2019-03-15 14:23:11,939 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:11,940 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:11,940 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:11,940 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 97
+2019-03-15 14:23:12,055 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 97
+2019-03-15 14:23:12,055 - INFO - 13901 - utils.py - __init__ - Pair info i=335,j=1690,id=97
+2019-03-15 14:23:12,063 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:12,296 - INFO - 13901 - start.py - update_data - right:1552630991441, left:1552630992289,pair_id:97,user:,start:1552630952642
+2019-03-15 14:23:12,296 - INFO - 13901 - utils.py - save_label - Start save result,id = 97,label = 0
+2019-03-15 14:23:12,296 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:12",user= "" WHERE id = 97
+2019-03-15 14:23:12,388 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:12",user= "" WHERE id = 97
+2019-03-15 14:23:12,389 - INFO - 13901 - utils.py - save_label - Finish save result,id = 97,label = 0,user = 
+2019-03-15 14:23:12,389 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:12,390 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:12,390 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:12,390 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 98
+2019-03-15 14:23:12,505 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 98
+2019-03-15 14:23:12,505 - INFO - 13901 - utils.py - __init__ - Pair info i=3298,j=110,id=98
+2019-03-15 14:23:12,518 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:12,696 - INFO - 13901 - start.py - update_data - right:1552630991441, left:1552630992689,pair_id:98,user:,start:1552630952642
+2019-03-15 14:23:12,696 - INFO - 13901 - utils.py - save_label - Start save result,id = 98,label = 0
+2019-03-15 14:23:12,697 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:12",user= "" WHERE id = 98
+2019-03-15 14:23:12,771 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:12",user= "" WHERE id = 98
+2019-03-15 14:23:12,772 - INFO - 13901 - utils.py - save_label - Finish save result,id = 98,label = 0,user = 
+2019-03-15 14:23:12,772 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:12,772 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:12,772 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:12,773 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 99
+2019-03-15 14:23:12,905 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 99
+2019-03-15 14:23:12,905 - INFO - 13901 - utils.py - __init__ - Pair info i=1792,j=31,id=99
+2019-03-15 14:23:12,914 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:12] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:13,112 - INFO - 13901 - start.py - update_data - right:1552630991441, left:1552630993105,pair_id:99,user:,start:1552630952642
+2019-03-15 14:23:13,112 - INFO - 13901 - utils.py - save_label - Start save result,id = 99,label = 0
+2019-03-15 14:23:13,112 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:13",user= "" WHERE id = 99
+2019-03-15 14:23:13,198 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:13",user= "" WHERE id = 99
+2019-03-15 14:23:13,198 - INFO - 13901 - utils.py - save_label - Finish save result,id = 99,label = 0,user = 
+2019-03-15 14:23:13,198 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:13,199 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:13,199 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:13,199 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 100
+2019-03-15 14:23:13,280 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 100
+2019-03-15 14:23:13,280 - INFO - 13901 - utils.py - __init__ - Pair info i=55,j=284,id=100
+2019-03-15 14:23:13,288 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:13,464 - INFO - 13901 - start.py - update_data - right:1552630991441, left:1552630993457,pair_id:100,user:,start:1552630952642
+2019-03-15 14:23:13,464 - INFO - 13901 - utils.py - save_label - Start save result,id = 100,label = 0
+2019-03-15 14:23:13,465 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:13",user= "" WHERE id = 100
+2019-03-15 14:23:13,538 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:13",user= "" WHERE id = 100
+2019-03-15 14:23:13,539 - INFO - 13901 - utils.py - save_label - Finish save result,id = 100,label = 0,user = 
+2019-03-15 14:23:13,539 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:13,539 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:13,540 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:13,540 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 101
+2019-03-15 14:23:13,630 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 101
+2019-03-15 14:23:13,630 - INFO - 13901 - utils.py - __init__ - Pair info i=190,j=5303,id=101
+2019-03-15 14:23:13,636 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:13,814 - INFO - 13901 - start.py - update_data - right:1552630991441, left:1552630993808,pair_id:101,user:,start:1552630952642
+2019-03-15 14:23:13,814 - INFO - 13901 - utils.py - save_label - Start save result,id = 101,label = 0
+2019-03-15 14:23:13,815 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:13",user= "" WHERE id = 101
+2019-03-15 14:23:13,906 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:13",user= "" WHERE id = 101
+2019-03-15 14:23:13,906 - INFO - 13901 - utils.py - save_label - Finish save result,id = 101,label = 0,user = 
+2019-03-15 14:23:13,907 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:13,907 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:13,907 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:13,907 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 102
+2019-03-15 14:23:13,972 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 102
+2019-03-15 14:23:13,972 - INFO - 13901 - utils.py - __init__ - Pair info i=52,j=1490,id=102
+2019-03-15 14:23:13,980 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:13] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:14,017 - INFO - 13901 - start.py - update_data - right:1552630991441, left:1552630994011,pair_id:102,user:,start:1552630952642
+2019-03-15 14:23:14,017 - INFO - 13901 - utils.py - save_label - Start save result,id = 102,label = 0
+2019-03-15 14:23:14,017 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:14",user= "" WHERE id = 102
+2019-03-15 14:23:14,122 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:14",user= "" WHERE id = 102
+2019-03-15 14:23:14,122 - INFO - 13901 - utils.py - save_label - Finish save result,id = 102,label = 0,user = 
+2019-03-15 14:23:14,122 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:14,123 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:14,123 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:14,123 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 103
+2019-03-15 14:23:14,222 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 103
+2019-03-15 14:23:14,222 - INFO - 13901 - utils.py - __init__ - Pair info i=4194,j=1930,id=103
+2019-03-15 14:23:14,231 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:14] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:18,947 - INFO - 13901 - start.py - update_data - right:1552630998944, left:1552630994011,pair_id:103,user:,start:1552630952642
+2019-03-15 14:23:18,947 - INFO - 13901 - utils.py - save_label - Start save result,id = 103,label = 1
+2019-03-15 14:23:18,947 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:18",user= "" WHERE id = 103
+2019-03-15 14:23:19,033 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:18",user= "" WHERE id = 103
+2019-03-15 14:23:19,033 - INFO - 13901 - utils.py - save_label - Finish save result,id = 103,label = 1,user = 
+2019-03-15 14:23:19,034 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:19,034 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:19,034 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:19,034 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 104
+2019-03-15 14:23:19,115 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 104
+2019-03-15 14:23:19,115 - INFO - 13901 - utils.py - __init__ - Pair info i=1028,j=346,id=104
+2019-03-15 14:23:19,124 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:19] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:20,041 - INFO - 13901 - start.py - update_data - right:1552631000034, left:1552630994011,pair_id:104,user:,start:1552630952642
+2019-03-15 14:23:20,041 - INFO - 13901 - utils.py - save_label - Start save result,id = 104,label = 1
+2019-03-15 14:23:20,041 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:20",user= "" WHERE id = 104
+2019-03-15 14:23:20,142 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:20",user= "" WHERE id = 104
+2019-03-15 14:23:20,142 - INFO - 13901 - utils.py - save_label - Finish save result,id = 104,label = 1,user = 
+2019-03-15 14:23:20,143 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:20,143 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:20,143 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:20,144 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 105
+2019-03-15 14:23:20,216 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 105
+2019-03-15 14:23:20,216 - INFO - 13901 - utils.py - __init__ - Pair info i=234,j=75,id=105
+2019-03-15 14:23:20,225 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:20] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:20,712 - INFO - 13901 - start.py - update_data - right:1552631000705, left:1552630994011,pair_id:105,user:,start:1552630952642
+2019-03-15 14:23:20,712 - INFO - 13901 - utils.py - save_label - Start save result,id = 105,label = 1
+2019-03-15 14:23:20,713 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:20",user= "" WHERE id = 105
+2019-03-15 14:23:20,807 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:20",user= "" WHERE id = 105
+2019-03-15 14:23:20,808 - INFO - 13901 - utils.py - save_label - Finish save result,id = 105,label = 1,user = 
+2019-03-15 14:23:20,808 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:20,808 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:20,808 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:20,808 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 106
+2019-03-15 14:23:21,032 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 106
+2019-03-15 14:23:21,033 - INFO - 13901 - utils.py - __init__ - Pair info i=3298,j=1837,id=106
+2019-03-15 14:23:21,041 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:21,231 - INFO - 13901 - start.py - update_data - right:1552631000705, left:1552631001225,pair_id:106,user:,start:1552630952642
+2019-03-15 14:23:21,231 - INFO - 13901 - utils.py - save_label - Start save result,id = 106,label = 0
+2019-03-15 14:23:21,232 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:21",user= "" WHERE id = 106
+2019-03-15 14:23:21,308 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:21",user= "" WHERE id = 106
+2019-03-15 14:23:21,308 - INFO - 13901 - utils.py - save_label - Finish save result,id = 106,label = 0,user = 
+2019-03-15 14:23:21,308 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:21,309 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:21,309 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:21,309 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 107
+2019-03-15 14:23:21,391 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 107
+2019-03-15 14:23:21,391 - INFO - 13901 - utils.py - __init__ - Pair info i=4077,j=2434,id=107
+2019-03-15 14:23:21,399 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:21,671 - INFO - 13901 - start.py - update_data - right:1552631001665, left:1552631001225,pair_id:107,user:,start:1552630952642
+2019-03-15 14:23:21,671 - INFO - 13901 - utils.py - save_label - Start save result,id = 107,label = 1
+2019-03-15 14:23:21,672 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:21",user= "" WHERE id = 107
+2019-03-15 14:23:21,749 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:21",user= "" WHERE id = 107
+2019-03-15 14:23:21,750 - INFO - 13901 - utils.py - save_label - Finish save result,id = 107,label = 1,user = 
+2019-03-15 14:23:21,750 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:21,750 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:21,751 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:21,751 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 108
+2019-03-15 14:23:21,833 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 108
+2019-03-15 14:23:21,833 - INFO - 13901 - utils.py - __init__ - Pair info i=12156,j=1139,id=108
+2019-03-15 14:23:21,837 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:21] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:22,033 - INFO - 13901 - start.py - update_data - right:1552631001665, left:1552631002026,pair_id:108,user:,start:1552630952642
+2019-03-15 14:23:22,033 - INFO - 13901 - utils.py - save_label - Start save result,id = 108,label = 0
+2019-03-15 14:23:22,033 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:22",user= "" WHERE id = 108
+2019-03-15 14:23:22,126 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:22",user= "" WHERE id = 108
+2019-03-15 14:23:22,126 - INFO - 13901 - utils.py - save_label - Finish save result,id = 108,label = 0,user = 
+2019-03-15 14:23:22,127 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:22,127 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:22,127 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:22,128 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 109
+2019-03-15 14:23:22,208 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 109
+2019-03-15 14:23:22,208 - INFO - 13901 - utils.py - __init__ - Pair info i=234,j=780,id=109
+2019-03-15 14:23:22,212 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:22,432 - INFO - 13901 - start.py - update_data - right:1552631002425, left:1552631002026,pair_id:109,user:,start:1552630952642
+2019-03-15 14:23:22,432 - INFO - 13901 - utils.py - save_label - Start save result,id = 109,label = 1
+2019-03-15 14:23:22,433 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:22",user= "" WHERE id = 109
+2019-03-15 14:23:22,517 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:22",user= "" WHERE id = 109
+2019-03-15 14:23:22,518 - INFO - 13901 - utils.py - save_label - Finish save result,id = 109,label = 1,user = 
+2019-03-15 14:23:22,518 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:22,519 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:22,519 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:22,519 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 110
+2019-03-15 14:23:22,600 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 110
+2019-03-15 14:23:22,600 - INFO - 13901 - utils.py - __init__ - Pair info i=2763,j=11705,id=110
+2019-03-15 14:23:22,609 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:22,769 - INFO - 13901 - start.py - update_data - right:1552631002425, left:1552631002761,pair_id:110,user:,start:1552630952642
+2019-03-15 14:23:22,769 - INFO - 13901 - utils.py - save_label - Start save result,id = 110,label = 0
+2019-03-15 14:23:22,770 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:22",user= "" WHERE id = 110
+2019-03-15 14:23:22,867 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:22",user= "" WHERE id = 110
+2019-03-15 14:23:22,868 - INFO - 13901 - utils.py - save_label - Finish save result,id = 110,label = 0,user = 
+2019-03-15 14:23:22,868 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:22,868 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:22,868 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:22,869 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 111
+2019-03-15 14:23:22,950 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 111
+2019-03-15 14:23:22,950 - INFO - 13901 - utils.py - __init__ - Pair info i=9195,j=45,id=111
+2019-03-15 14:23:22,958 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:23,144 - INFO - 13901 - start.py - update_data - right:1552631003137, left:1552631002761,pair_id:111,user:,start:1552630952642
+2019-03-15 14:23:23,144 - INFO - 13901 - utils.py - save_label - Start save result,id = 111,label = 1
+2019-03-15 14:23:23,145 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:23",user= "" WHERE id = 111
+2019-03-15 14:23:23,233 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:23",user= "" WHERE id = 111
+2019-03-15 14:23:23,233 - INFO - 13901 - utils.py - save_label - Finish save result,id = 111,label = 1,user = 
+2019-03-15 14:23:23,234 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:23,234 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:23,234 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:23,234 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 112
+2019-03-15 14:23:23,342 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 112
+2019-03-15 14:23:23,342 - INFO - 13901 - utils.py - __init__ - Pair info i=1533,j=3835,id=112
+2019-03-15 14:23:23,351 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:28,452 - INFO - 13901 - start.py - update_data - right:1552631008449, left:1552631002761,pair_id:112,user:,start:1552630952642
+2019-03-15 14:23:28,452 - INFO - 13901 - utils.py - save_label - Start save result,id = 112,label = 1
+2019-03-15 14:23:28,452 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:28",user= "" WHERE id = 112
+2019-03-15 14:23:28,569 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:28",user= "" WHERE id = 112
+2019-03-15 14:23:28,570 - INFO - 13901 - utils.py - save_label - Finish save result,id = 112,label = 1,user = 
+2019-03-15 14:23:28,570 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:28,570 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:28,570 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:28,571 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 113
+2019-03-15 14:23:28,643 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 113
+2019-03-15 14:23:28,643 - INFO - 13901 - utils.py - __init__ - Pair info i=493,j=4740,id=113
+2019-03-15 14:23:28,651 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:28] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:29,553 - INFO - 13901 - start.py - update_data - right:1552631008449, left:1552631009546,pair_id:113,user:,start:1552630952642
+2019-03-15 14:23:29,553 - INFO - 13901 - utils.py - save_label - Start save result,id = 113,label = 0
+2019-03-15 14:23:29,553 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:29",user= "" WHERE id = 113
+2019-03-15 14:23:29,677 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:29",user= "" WHERE id = 113
+2019-03-15 14:23:29,677 - INFO - 13901 - utils.py - save_label - Finish save result,id = 113,label = 0,user = 
+2019-03-15 14:23:29,677 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:29,678 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:29,678 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:29,678 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 114
+2019-03-15 14:23:29,760 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 114
+2019-03-15 14:23:29,761 - INFO - 13901 - utils.py - __init__ - Pair info i=1637,j=4786,id=114
+2019-03-15 14:23:29,770 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:29] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:30,122 - INFO - 13901 - start.py - update_data - right:1552631010114, left:1552631009546,pair_id:114,user:,start:1552630952642
+2019-03-15 14:23:30,122 - INFO - 13901 - utils.py - save_label - Start save result,id = 114,label = 1
+2019-03-15 14:23:30,122 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:30",user= "" WHERE id = 114
+2019-03-15 14:23:30,210 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:30",user= "" WHERE id = 114
+2019-03-15 14:23:30,211 - INFO - 13901 - utils.py - save_label - Finish save result,id = 114,label = 1,user = 
+2019-03-15 14:23:30,211 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:30,211 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:30,212 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:30,212 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 115
+2019-03-15 14:23:30,327 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 115
+2019-03-15 14:23:30,327 - INFO - 13901 - utils.py - __init__ - Pair info i=738,j=4489,id=115
+2019-03-15 14:23:30,337 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:30,528 - INFO - 13901 - start.py - update_data - right:1552631010114, left:1552631010522,pair_id:115,user:,start:1552630952642
+2019-03-15 14:23:30,529 - INFO - 13901 - utils.py - save_label - Start save result,id = 115,label = 0
+2019-03-15 14:23:30,529 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:30",user= "" WHERE id = 115
+2019-03-15 14:23:30,612 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:30",user= "" WHERE id = 115
+2019-03-15 14:23:30,612 - INFO - 13901 - utils.py - save_label - Finish save result,id = 115,label = 0,user = 
+2019-03-15 14:23:30,612 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:30,613 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:30,613 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:30,613 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 116
+2019-03-15 14:23:30,703 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 116
+2019-03-15 14:23:30,704 - INFO - 13901 - utils.py - __init__ - Pair info i=2763,j=12979,id=116
+2019-03-15 14:23:30,713 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:30] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:30,889 - INFO - 13901 - start.py - update_data - right:1552631010882, left:1552631010522,pair_id:116,user:,start:1552630952642
+2019-03-15 14:23:30,889 - INFO - 13901 - utils.py - save_label - Start save result,id = 116,label = 1
+2019-03-15 14:23:30,889 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:30",user= "" WHERE id = 116
+2019-03-15 14:23:30,995 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:30",user= "" WHERE id = 116
+2019-03-15 14:23:30,995 - INFO - 13901 - utils.py - save_label - Finish save result,id = 116,label = 1,user = 
+2019-03-15 14:23:30,996 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:30,996 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:30,996 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:30,996 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 117
+2019-03-15 14:23:31,061 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 117
+2019-03-15 14:23:31,061 - INFO - 13901 - utils.py - __init__ - Pair info i=2385,j=4837,id=117
+2019-03-15 14:23:31,070 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:31,217 - INFO - 13901 - start.py - update_data - right:1552631010882, left:1552631011210,pair_id:117,user:,start:1552630952642
+2019-03-15 14:23:31,217 - INFO - 13901 - utils.py - save_label - Start save result,id = 117,label = 0
+2019-03-15 14:23:31,217 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:31",user= "" WHERE id = 117
+2019-03-15 14:23:31,320 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:31",user= "" WHERE id = 117
+2019-03-15 14:23:31,320 - INFO - 13901 - utils.py - save_label - Finish save result,id = 117,label = 0,user = 
+2019-03-15 14:23:31,321 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:31,321 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:31,321 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:31,321 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 118
+2019-03-15 14:23:31,403 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 118
+2019-03-15 14:23:31,403 - INFO - 13901 - utils.py - __init__ - Pair info i=7426,j=78,id=118
+2019-03-15 14:23:31,411 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:31,561 - INFO - 13901 - start.py - update_data - right:1552631011554, left:1552631011210,pair_id:118,user:,start:1552630952642
+2019-03-15 14:23:31,561 - INFO - 13901 - utils.py - save_label - Start save result,id = 118,label = 1
+2019-03-15 14:23:31,561 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:31",user= "" WHERE id = 118
+2019-03-15 14:23:31,644 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:31",user= "" WHERE id = 118
+2019-03-15 14:23:31,644 - INFO - 13901 - utils.py - save_label - Finish save result,id = 118,label = 1,user = 
+2019-03-15 14:23:31,645 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:31,645 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:31,645 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:31,646 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 119
+2019-03-15 14:23:31,728 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 119
+2019-03-15 14:23:31,728 - INFO - 13901 - utils.py - __init__ - Pair info i=3178,j=883,id=119
+2019-03-15 14:23:31,737 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:31] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:31,921 - INFO - 13901 - start.py - update_data - right:1552631011554, left:1552631011914,pair_id:119,user:,start:1552630952642
+2019-03-15 14:23:31,921 - INFO - 13901 - utils.py - save_label - Start save result,id = 119,label = 0
+2019-03-15 14:23:31,922 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:31",user= "" WHERE id = 119
+2019-03-15 14:23:32,054 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:31",user= "" WHERE id = 119
+2019-03-15 14:23:32,054 - INFO - 13901 - utils.py - save_label - Finish save result,id = 119,label = 0,user = 
+2019-03-15 14:23:32,054 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:32,055 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:32,055 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:32,055 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 120
+2019-03-15 14:23:32,188 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 120
+2019-03-15 14:23:32,188 - INFO - 13901 - utils.py - __init__ - Pair info i=365,j=1490,id=120
+2019-03-15 14:23:32,196 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:32,247 - INFO - 13901 - start.py - update_data - right:1552631012241, left:1552631011914,pair_id:120,user:,start:1552630952642
+2019-03-15 14:23:32,247 - INFO - 13901 - utils.py - save_label - Start save result,id = 120,label = 1
+2019-03-15 14:23:32,247 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:32",user= "" WHERE id = 120
+2019-03-15 14:23:32,361 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:32",user= "" WHERE id = 120
+2019-03-15 14:23:32,361 - INFO - 13901 - utils.py - save_label - Finish save result,id = 120,label = 1,user = 
+2019-03-15 14:23:32,362 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:32,362 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:32,362 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:32,362 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 121
+2019-03-15 14:23:32,470 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 121
+2019-03-15 14:23:32,470 - INFO - 13901 - utils.py - __init__ - Pair info i=1054,j=2110,id=121
+2019-03-15 14:23:32,478 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:32,563 - INFO - 13901 - start.py - update_data - right:1552631012241, left:1552631012560,pair_id:121,user:,start:1552630952642
+2019-03-15 14:23:32,563 - INFO - 13901 - utils.py - save_label - Start save result,id = 121,label = 0
+2019-03-15 14:23:32,563 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:32",user= "" WHERE id = 121
+2019-03-15 14:23:32,644 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:32",user= "" WHERE id = 121
+2019-03-15 14:23:32,645 - INFO - 13901 - utils.py - save_label - Finish save result,id = 121,label = 0,user = 
+2019-03-15 14:23:32,645 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:32,645 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:32,645 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:32,645 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 122
+2019-03-15 14:23:32,765 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 122
+2019-03-15 14:23:32,766 - INFO - 13901 - utils.py - __init__ - Pair info i=86,j=254,id=122
+2019-03-15 14:23:32,778 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:32] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:32,887 - INFO - 13901 - start.py - update_data - right:1552631012881, left:1552631012560,pair_id:122,user:,start:1552630952642
+2019-03-15 14:23:32,888 - INFO - 13901 - utils.py - save_label - Start save result,id = 122,label = 1
+2019-03-15 14:23:32,888 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:32",user= "" WHERE id = 122
+2019-03-15 14:23:32,970 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:32",user= "" WHERE id = 122
+2019-03-15 14:23:32,970 - INFO - 13901 - utils.py - save_label - Finish save result,id = 122,label = 1,user = 
+2019-03-15 14:23:32,970 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:32,971 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:32,971 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:32,972 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 123
+2019-03-15 14:23:33,079 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 123
+2019-03-15 14:23:33,079 - INFO - 13901 - utils.py - __init__ - Pair info i=4077,j=2566,id=123
+2019-03-15 14:23:33,091 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:33,164 - INFO - 13901 - start.py - update_data - right:1552631012881, left:1552631013161,pair_id:123,user:,start:1552630952642
+2019-03-15 14:23:33,164 - INFO - 13901 - utils.py - save_label - Start save result,id = 123,label = 0
+2019-03-15 14:23:33,165 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:33",user= "" WHERE id = 123
+2019-03-15 14:23:33,278 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:33",user= "" WHERE id = 123
+2019-03-15 14:23:33,278 - INFO - 13901 - utils.py - save_label - Finish save result,id = 123,label = 0,user = 
+2019-03-15 14:23:33,279 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:33,279 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:33,279 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:33,279 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 124
+2019-03-15 14:23:33,362 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 124
+2019-03-15 14:23:33,362 - INFO - 13901 - utils.py - __init__ - Pair info i=2125,j=52,id=124
+2019-03-15 14:23:33,372 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:33,540 - INFO - 13901 - start.py - update_data - right:1552631013532, left:1552631013161,pair_id:124,user:,start:1552630952642
+2019-03-15 14:23:33,540 - INFO - 13901 - utils.py - save_label - Start save result,id = 124,label = 1
+2019-03-15 14:23:33,540 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:33",user= "" WHERE id = 124
+2019-03-15 14:23:33,636 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:33",user= "" WHERE id = 124
+2019-03-15 14:23:33,637 - INFO - 13901 - utils.py - save_label - Finish save result,id = 124,label = 1,user = 
+2019-03-15 14:23:33,637 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:33,637 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:33,637 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:33,637 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 125
+2019-03-15 14:23:33,695 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 125
+2019-03-15 14:23:33,696 - INFO - 13901 - utils.py - __init__ - Pair info i=1930,j=45,id=125
+2019-03-15 14:23:33,704 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:33] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:33,848 - INFO - 13901 - start.py - update_data - right:1552631013532, left:1552631013842,pair_id:125,user:,start:1552630952642
+2019-03-15 14:23:33,848 - INFO - 13901 - utils.py - save_label - Start save result,id = 125,label = 0
+2019-03-15 14:23:33,848 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:33",user= "" WHERE id = 125
+2019-03-15 14:23:33,920 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:33",user= "" WHERE id = 125
+2019-03-15 14:23:33,920 - INFO - 13901 - utils.py - save_label - Finish save result,id = 125,label = 0,user = 
+2019-03-15 14:23:33,920 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:33,921 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:33,921 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:33,921 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 126
+2019-03-15 14:23:33,995 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 126
+2019-03-15 14:23:33,995 - INFO - 13901 - utils.py - __init__ - Pair info i=3566,j=108,id=126
+2019-03-15 14:23:34,004 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:34,183 - INFO - 13901 - start.py - update_data - right:1552631014177, left:1552631013842,pair_id:126,user:,start:1552630952642
+2019-03-15 14:23:34,183 - INFO - 13901 - utils.py - save_label - Start save result,id = 126,label = 1
+2019-03-15 14:23:34,183 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:34",user= "" WHERE id = 126
+2019-03-15 14:23:34,278 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:34",user= "" WHERE id = 126
+2019-03-15 14:23:34,279 - INFO - 13901 - utils.py - save_label - Finish save result,id = 126,label = 1,user = 
+2019-03-15 14:23:34,279 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:34,279 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:34,279 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:34,280 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 127
+2019-03-15 14:23:34,387 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 127
+2019-03-15 14:23:34,387 - INFO - 13901 - utils.py - __init__ - Pair info i=22,j=10959,id=127
+2019-03-15 14:23:34,397 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:34,488 - INFO - 13901 - start.py - update_data - right:1552631014177, left:1552631014481,pair_id:127,user:,start:1552630952642
+2019-03-15 14:23:34,488 - INFO - 13901 - utils.py - save_label - Start save result,id = 127,label = 0
+2019-03-15 14:23:34,488 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:34",user= "" WHERE id = 127
+2019-03-15 14:23:34,554 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:34",user= "" WHERE id = 127
+2019-03-15 14:23:34,554 - INFO - 13901 - utils.py - save_label - Finish save result,id = 127,label = 0,user = 
+2019-03-15 14:23:34,554 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:34,555 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:34,555 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:34,555 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 128
+2019-03-15 14:23:34,637 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 128
+2019-03-15 14:23:34,637 - INFO - 13901 - utils.py - __init__ - Pair info i=1864,j=1251,id=128
+2019-03-15 14:23:34,643 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:34,839 - INFO - 13901 - start.py - update_data - right:1552631014833, left:1552631014481,pair_id:128,user:,start:1552630952642
+2019-03-15 14:23:34,840 - INFO - 13901 - utils.py - save_label - Start save result,id = 128,label = 1
+2019-03-15 14:23:34,840 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:34",user= "" WHERE id = 128
+2019-03-15 14:23:34,904 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 1,state = 2,label_time = "2019-03-15 14:23:34",user= "" WHERE id = 128
+2019-03-15 14:23:34,904 - INFO - 13901 - utils.py - save_label - Finish save result,id = 128,label = 1,user = 
+2019-03-15 14:23:34,904 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:34,905 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:34,905 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:34,906 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 129
+2019-03-15 14:23:34,987 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 129
+2019-03-15 14:23:34,987 - INFO - 13901 - utils.py - __init__ - Pair info i=4,j=673,id=129
+2019-03-15 14:23:34,995 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:34] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:35,151 - INFO - 13901 - start.py - update_data - right:1552631014833, left:1552631015145,pair_id:129,user:,start:1552630952642
+2019-03-15 14:23:35,151 - INFO - 13901 - utils.py - save_label - Start save result,id = 129,label = 0
+2019-03-15 14:23:35,151 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:35",user= "" WHERE id = 129
+2019-03-15 14:23:35,229 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET label = 0,state = 2,label_time = "2019-03-15 14:23:35",user= "" WHERE id = 129
+2019-03-15 14:23:35,229 - INFO - 13901 - utils.py - save_label - Finish save result,id = 129,label = 0,user = 
+2019-03-15 14:23:35,229 - INFO - 13901 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:35,230 - INFO - 13901 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:23:35,230 - INFO - 13901 - utils.py - __init__ - Start select one pair
+2019-03-15 14:23:35,230 - INFO - 13901 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 130
+2019-03-15 14:23:35,312 - INFO - 13901 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 130
+2019-03-15 14:23:35,312 - INFO - 13901 - utils.py - __init__ - Pair info i=2125,j=738,id=130
+2019-03-15 14:23:35,322 - INFO - 13901 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:23:35] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:23:58,712 - INFO - 14019 - init.py - save_pairs_2_db - Remove old db,path is db/label.db
+2019-03-15 14:23:58,713 - INFO - 14019 - init.py - save_pairs_2_db - Create table,name is pairs
+2019-03-15 14:23:58,789 - INFO - 14019 - init.py - save_pairs_2_db - Write pairs to table pairs
+2019-03-15 14:23:59,348 - INFO - 14019 - init.py - save_pairs_2_db - Finish create table pairs
+2019-03-15 14:25:42,880 - INFO - 14199 - _internal.py - _log -  * Running on http://0.0.0.0:8004/ (Press CTRL+C to quit)
+2019-03-15 14:25:48,085 - INFO - 14199 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:25:48] "GET / HTTP/1.1" 200 -
+2019-03-15 14:25:49,818 - INFO - 14199 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:25:49] "GET /_dash-layout HTTP/1.1" 200 -
+2019-03-15 14:25:49,820 - INFO - 14199 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:25:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2019-03-15 14:25:49,836 - INFO - 14199 - start.py - update_data - Not click start~
+2019-03-15 14:25:49,836 - INFO - 14199 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:25:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2019-03-15 14:25:49,973 - INFO - 14199 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:25:49] "GET /_favicon.ico HTTP/1.1" 200 -
+2019-03-15 14:25:50,855 - INFO - 14199 - start.py - update_data - right:None, left:None,pair_id:,user:,start:1552631150848
+2019-03-15 14:25:50,855 - INFO - 14199 - utils.py - execute - Start execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:25:50,856 - INFO - 14199 - utils.py - execute - Finish execute sql:select * from pairs where state==0 limit 1
+2019-03-15 14:25:50,856 - INFO - 14199 - utils.py - __init__ - Start select one pair
+2019-03-15 14:25:50,857 - INFO - 14199 - utils.py - execute - Start execute sql:UPDATE pairs SET state = 1 WHERE id = 1
+2019-03-15 14:25:50,921 - INFO - 14199 - utils.py - execute - Finish execute sql:UPDATE pairs SET state = 1 WHERE id = 1
+2019-03-15 14:25:50,921 - INFO - 14199 - utils.py - __init__ - Pair info i=43,j=420,id=1
+2019-03-15 14:25:50,925 - INFO - 14199 - _internal.py - _log - 127.0.0.1 - - [15/Mar/2019 14:25:50] "POST /_dash-update-component HTTP/1.1" 200 -
