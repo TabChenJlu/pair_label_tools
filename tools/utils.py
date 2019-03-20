@@ -25,20 +25,27 @@ table = config['db'].get('table')
 wait_state = config['db'].get('wait_state')
 processing_state = config['db'].get('processing_state')
 success_state = config['db'].get('success_state')
-log_path = config['log']['log_path']
 title = config['info']['title']
 task_name = config['info']['task_name']
 teacher_font_color = config['ui']['teacher_font_color']
 student_font_colot = config['ui']['student_font_colot']
 
+data_dict = {}
+def loadAllText():
+    data_dict = {}
+    for file_name in os.listdir(raw_data_dir):
+        index = file_name.split('.')[0]
+        path = os.path.join(raw_data_dir, '{}.txt'.format(int(index)))
+        data_dict[index] = open(path, 'r').read()
+    return data_dict
 
+data_dict = loadAllText()
 
 def get_session_id():
     return str(uuid.uuid4())
 
 def loadText(index):
-    path = os.path.join(raw_data_dir, '{}.txt'.format(int(index)))
-    return open(path, 'r').read()
+    return data_dict[str(index)]
 
 
 def getNowTime():
@@ -66,6 +73,12 @@ class database():
         finally:
             self.conn.close()
         return result
+'''
+state
+- 0 未标注 
+- 1 正在标注
+- 2 标注完成
+'''
 class Pair():
     def __init__(self):
         self.state = True
