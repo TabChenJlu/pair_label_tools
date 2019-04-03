@@ -36,7 +36,7 @@ def loadAllText():
     for file_name in os.listdir(raw_data_dir):
         index = file_name.split('.')[0]
         path = os.path.join(raw_data_dir, '{}.txt'.format(int(index)))
-        data_dict[index] = open(path, 'r').read()
+        data_dict[index] = open(path, 'r',encoding='utf-8').read()
     return data_dict
 
 data_dict = loadAllText()
